@@ -1,0 +1,912 @@
+{
+  "Completed tasks": [
+    "57",
+    "32",
+    "87",
+    "98",
+    "45",
+    "82",
+    "50",
+    "88",
+    "31",
+    "65",
+    "64",
+    "51",
+    "99",
+    "44",
+    "95",
+    "17",
+    "46",
+    "60",
+    "24",
+    "66",
+    "55",
+    "21",
+    "80",
+    "56",
+    "61",
+    "43",
+    "39",
+    "1",
+    "28",
+    "41",
+    "11",
+    "49",
+    "34",
+    "73",
+    "14",
+    "22",
+    "76",
+    "19",
+    "59",
+    "2",
+    "23",
+    "29",
+    "85",
+    "63",
+    "20",
+    "48",
+    "96",
+    "78",
+    "68",
+    "91",
+    "37",
+    "69",
+    "84",
+    "35",
+    "27",
+    "94",
+    "62",
+    "97",
+    "3",
+    "58",
+    "71",
+    "42",
+    "79",
+    "93",
+    "36",
+    "10",
+    "16",
+    "4",
+    "81",
+    "8",
+    "30",
+    "38",
+    "89",
+    "75",
+    "15",
+    "72",
+    "67",
+    "54",
+    "77",
+    "92",
+    "74",
+    "90",
+    "13",
+    "12",
+    "53",
+    "40",
+    "52",
+    "18",
+    "9",
+    "26",
+    "5",
+    "86",
+    "25",
+    "33",
+    "0",
+    "7",
+    "70",
+    "47",
+    "83",
+    "6"
+  ],
+  "Running tasks": [],
+  "Pending tasks": [],
+  "Failed tasks": [],
+  "Completed tasks details": [
+    {
+      "job_id": "57",
+      "directory": "output/AC_L_0.6_kappa_0.8",
+      "arguments": [
+        "Materials/consts/prop_values=0.6",
+        "Kernels/ACInterface/kappa_name=0.8"
+      ]
+    },
+    {
+      "job_id": "32",
+      "directory": "output/AC_L_0.4_kappa_0.30000000000000004",
+      "arguments": [
+        "Materials/consts/prop_values=0.4",
+        "Kernels/ACInterface/kappa_name=0.30000000000000004"
+      ]
+    },
+    {
+      "job_id": "87",
+      "directory": "output/AC_L_0.9_kappa_0.8",
+      "arguments": [
+        "Materials/consts/prop_values=0.9",
+        "Kernels/ACInterface/kappa_name=0.8"
+      ]
+    },
+    {
+      "job_id": "98",
+      "directory": "output/AC_L_1.0_kappa_0.9",
+      "arguments": [
+        "Materials/consts/prop_values=1.0",
+        "Kernels/ACInterface/kappa_name=0.9"
+      ]
+    },
+    {
+      "job_id": "45",
+      "directory": "output/AC_L_0.5_kappa_0.6",
+      "arguments": [
+        "Materials/consts/prop_values=0.5",
+        "Kernels/ACInterface/kappa_name=0.6"
+      ]
+    },
+    {
+      "job_id": "82",
+      "directory": "output/AC_L_0.9_kappa_0.30000000000000004",
+      "arguments": [
+        "Materials/consts/prop_values=0.9",
+        "Kernels/ACInterface/kappa_name=0.30000000000000004"
+      ]
+    },
+    {
+      "job_id": "50",
+      "directory": "output/AC_L_0.6_kappa_0.1",
+      "arguments": [
+        "Materials/consts/prop_values=0.6",
+        "Kernels/ACInterface/kappa_name=0.1"
+      ]
+    },
+    {
+      "job_id": "88",
+      "directory": "output/AC_L_0.9_kappa_0.9",
+      "arguments": [
+        "Materials/consts/prop_values=0.9",
+        "Kernels/ACInterface/kappa_name=0.9"
+      ]
+    },
+    {
+      "job_id": "31",
+      "directory": "output/AC_L_0.4_kappa_0.2",
+      "arguments": [
+        "Materials/consts/prop_values=0.4",
+        "Kernels/ACInterface/kappa_name=0.2"
+      ]
+    },
+    {
+      "job_id": "65",
+      "directory": "output/AC_L_0.7000000000000001_kappa_0.6",
+      "arguments": [
+        "Materials/consts/prop_values=0.7000000000000001",
+        "Kernels/ACInterface/kappa_name=0.6"
+      ]
+    },
+    {
+      "job_id": "64",
+      "directory": "output/AC_L_0.7000000000000001_kappa_0.5",
+      "arguments": [
+        "Materials/consts/prop_values=0.7000000000000001",
+        "Kernels/ACInterface/kappa_name=0.5"
+      ]
+    },
+    {
+      "job_id": "51",
+      "directory": "output/AC_L_0.6_kappa_0.2",
+      "arguments": [
+        "Materials/consts/prop_values=0.6",
+        "Kernels/ACInterface/kappa_name=0.2"
+      ]
+    },
+    {
+      "job_id": "99",
+      "directory": "output/AC_L_1.0_kappa_1.0",
+      "arguments": [
+        "Materials/consts/prop_values=1.0",
+        "Kernels/ACInterface/kappa_name=1.0"
+      ]
+    },
+    {
+      "job_id": "44",
+      "directory": "output/AC_L_0.5_kappa_0.5",
+      "arguments": [
+        "Materials/consts/prop_values=0.5",
+        "Kernels/ACInterface/kappa_name=0.5"
+      ]
+    },
+    {
+      "job_id": "95",
+      "directory": "output/AC_L_1.0_kappa_0.6",
+      "arguments": [
+        "Materials/consts/prop_values=1.0",
+        "Kernels/ACInterface/kappa_name=0.6"
+      ]
+    },
+    {
+      "job_id": "17",
+      "directory": "output/AC_L_0.2_kappa_0.8",
+      "arguments": [
+        "Materials/consts/prop_values=0.2",
+        "Kernels/ACInterface/kappa_name=0.8"
+      ]
+    },
+    {
+      "job_id": "46",
+      "directory": "output/AC_L_0.5_kappa_0.7000000000000001",
+      "arguments": [
+        "Materials/consts/prop_values=0.5",
+        "Kernels/ACInterface/kappa_name=0.7000000000000001"
+      ]
+    },
+    {
+      "job_id": "60",
+      "directory": "output/AC_L_0.7000000000000001_kappa_0.1",
+      "arguments": [
+        "Materials/consts/prop_values=0.7000000000000001",
+        "Kernels/ACInterface/kappa_name=0.1"
+      ]
+    },
+    {
+      "job_id": "24",
+      "directory": "output/AC_L_0.30000000000000004_kappa_0.5",
+      "arguments": [
+        "Materials/consts/prop_values=0.30000000000000004",
+        "Kernels/ACInterface/kappa_name=0.5"
+      ]
+    },
+    {
+      "job_id": "66",
+      "directory": "output/AC_L_0.7000000000000001_kappa_0.7000000000000001",
+      "arguments": [
+        "Materials/consts/prop_values=0.7000000000000001",
+        "Kernels/ACInterface/kappa_name=0.7000000000000001"
+      ]
+    },
+    {
+      "job_id": "55",
+      "directory": "output/AC_L_0.6_kappa_0.6",
+      "arguments": [
+        "Materials/consts/prop_values=0.6",
+        "Kernels/ACInterface/kappa_name=0.6"
+      ]
+    },
+    {
+      "job_id": "21",
+      "directory": "output/AC_L_0.30000000000000004_kappa_0.2",
+      "arguments": [
+        "Materials/consts/prop_values=0.30000000000000004",
+        "Kernels/ACInterface/kappa_name=0.2"
+      ]
+    },
+    {
+      "job_id": "80",
+      "directory": "output/AC_L_0.9_kappa_0.1",
+      "arguments": [
+        "Materials/consts/prop_values=0.9",
+        "Kernels/ACInterface/kappa_name=0.1"
+      ]
+    },
+    {
+      "job_id": "56",
+      "directory": "output/AC_L_0.6_kappa_0.7000000000000001",
+      "arguments": [
+        "Materials/consts/prop_values=0.6",
+        "Kernels/ACInterface/kappa_name=0.7000000000000001"
+      ]
+    },
+    {
+      "job_id": "61",
+      "directory": "output/AC_L_0.7000000000000001_kappa_0.2",
+      "arguments": [
+        "Materials/consts/prop_values=0.7000000000000001",
+        "Kernels/ACInterface/kappa_name=0.2"
+      ]
+    },
+    {
+      "job_id": "43",
+      "directory": "output/AC_L_0.5_kappa_0.4",
+      "arguments": [
+        "Materials/consts/prop_values=0.5",
+        "Kernels/ACInterface/kappa_name=0.4"
+      ]
+    },
+    {
+      "job_id": "39",
+      "directory": "output/AC_L_0.4_kappa_1.0",
+      "arguments": [
+        "Materials/consts/prop_values=0.4",
+        "Kernels/ACInterface/kappa_name=1.0"
+      ]
+    },
+    {
+      "job_id": "1",
+      "directory": "output/AC_L_0.1_kappa_0.2",
+      "arguments": [
+        "Materials/consts/prop_values=0.1",
+        "Kernels/ACInterface/kappa_name=0.2"
+      ]
+    },
+    {
+      "job_id": "28",
+      "directory": "output/AC_L_0.30000000000000004_kappa_0.9",
+      "arguments": [
+        "Materials/consts/prop_values=0.30000000000000004",
+        "Kernels/ACInterface/kappa_name=0.9"
+      ]
+    },
+    {
+      "job_id": "41",
+      "directory": "output/AC_L_0.5_kappa_0.2",
+      "arguments": [
+        "Materials/consts/prop_values=0.5",
+        "Kernels/ACInterface/kappa_name=0.2"
+      ]
+    },
+    {
+      "job_id": "11",
+      "directory": "output/AC_L_0.2_kappa_0.2",
+      "arguments": [
+        "Materials/consts/prop_values=0.2",
+        "Kernels/ACInterface/kappa_name=0.2"
+      ]
+    },
+    {
+      "job_id": "49",
+      "directory": "output/AC_L_0.5_kappa_1.0",
+      "arguments": [
+        "Materials/consts/prop_values=0.5",
+        "Kernels/ACInterface/kappa_name=1.0"
+      ]
+    },
+    {
+      "job_id": "34",
+      "directory": "output/AC_L_0.4_kappa_0.5",
+      "arguments": [
+        "Materials/consts/prop_values=0.4",
+        "Kernels/ACInterface/kappa_name=0.5"
+      ]
+    },
+    {
+      "job_id": "73",
+      "directory": "output/AC_L_0.8_kappa_0.4",
+      "arguments": [
+        "Materials/consts/prop_values=0.8",
+        "Kernels/ACInterface/kappa_name=0.4"
+      ]
+    },
+    {
+      "job_id": "14",
+      "directory": "output/AC_L_0.2_kappa_0.5",
+      "arguments": [
+        "Materials/consts/prop_values=0.2",
+        "Kernels/ACInterface/kappa_name=0.5"
+      ]
+    },
+    {
+      "job_id": "22",
+      "directory": "output/AC_L_0.30000000000000004_kappa_0.30000000000000004",
+      "arguments": [
+        "Materials/consts/prop_values=0.30000000000000004",
+        "Kernels/ACInterface/kappa_name=0.30000000000000004"
+      ]
+    },
+    {
+      "job_id": "76",
+      "directory": "output/AC_L_0.8_kappa_0.7000000000000001",
+      "arguments": [
+        "Materials/consts/prop_values=0.8",
+        "Kernels/ACInterface/kappa_name=0.7000000000000001"
+      ]
+    },
+    {
+      "job_id": "19",
+      "directory": "output/AC_L_0.2_kappa_1.0",
+      "arguments": [
+        "Materials/consts/prop_values=0.2",
+        "Kernels/ACInterface/kappa_name=1.0"
+      ]
+    },
+    {
+      "job_id": "59",
+      "directory": "output/AC_L_0.6_kappa_1.0",
+      "arguments": [
+        "Materials/consts/prop_values=0.6",
+        "Kernels/ACInterface/kappa_name=1.0"
+      ]
+    },
+    {
+      "job_id": "2",
+      "directory": "output/AC_L_0.1_kappa_0.30000000000000004",
+      "arguments": [
+        "Materials/consts/prop_values=0.1",
+        "Kernels/ACInterface/kappa_name=0.30000000000000004"
+      ]
+    },
+    {
+      "job_id": "23",
+      "directory": "output/AC_L_0.30000000000000004_kappa_0.4",
+      "arguments": [
+        "Materials/consts/prop_values=0.30000000000000004",
+        "Kernels/ACInterface/kappa_name=0.4"
+      ]
+    },
+    {
+      "job_id": "29",
+      "directory": "output/AC_L_0.30000000000000004_kappa_1.0",
+      "arguments": [
+        "Materials/consts/prop_values=0.30000000000000004",
+        "Kernels/ACInterface/kappa_name=1.0"
+      ]
+    },
+    {
+      "job_id": "85",
+      "directory": "output/AC_L_0.9_kappa_0.6",
+      "arguments": [
+        "Materials/consts/prop_values=0.9",
+        "Kernels/ACInterface/kappa_name=0.6"
+      ]
+    },
+    {
+      "job_id": "63",
+      "directory": "output/AC_L_0.7000000000000001_kappa_0.4",
+      "arguments": [
+        "Materials/consts/prop_values=0.7000000000000001",
+        "Kernels/ACInterface/kappa_name=0.4"
+      ]
+    },
+    {
+      "job_id": "20",
+      "directory": "output/AC_L_0.30000000000000004_kappa_0.1",
+      "arguments": [
+        "Materials/consts/prop_values=0.30000000000000004",
+        "Kernels/ACInterface/kappa_name=0.1"
+      ]
+    },
+    {
+      "job_id": "48",
+      "directory": "output/AC_L_0.5_kappa_0.9",
+      "arguments": [
+        "Materials/consts/prop_values=0.5",
+        "Kernels/ACInterface/kappa_name=0.9"
+      ]
+    },
+    {
+      "job_id": "96",
+      "directory": "output/AC_L_1.0_kappa_0.7000000000000001",
+      "arguments": [
+        "Materials/consts/prop_values=1.0",
+        "Kernels/ACInterface/kappa_name=0.7000000000000001"
+      ]
+    },
+    {
+      "job_id": "78",
+      "directory": "output/AC_L_0.8_kappa_0.9",
+      "arguments": [
+        "Materials/consts/prop_values=0.8",
+        "Kernels/ACInterface/kappa_name=0.9"
+      ]
+    },
+    {
+      "job_id": "68",
+      "directory": "output/AC_L_0.7000000000000001_kappa_0.9",
+      "arguments": [
+        "Materials/consts/prop_values=0.7000000000000001",
+        "Kernels/ACInterface/kappa_name=0.9"
+      ]
+    },
+    {
+      "job_id": "91",
+      "directory": "output/AC_L_1.0_kappa_0.2",
+      "arguments": [
+        "Materials/consts/prop_values=1.0",
+        "Kernels/ACInterface/kappa_name=0.2"
+      ]
+    },
+    {
+      "job_id": "37",
+      "directory": "output/AC_L_0.4_kappa_0.8",
+      "arguments": [
+        "Materials/consts/prop_values=0.4",
+        "Kernels/ACInterface/kappa_name=0.8"
+      ]
+    },
+    {
+      "job_id": "69",
+      "directory": "output/AC_L_0.7000000000000001_kappa_1.0",
+      "arguments": [
+        "Materials/consts/prop_values=0.7000000000000001",
+        "Kernels/ACInterface/kappa_name=1.0"
+      ]
+    },
+    {
+      "job_id": "84",
+      "directory": "output/AC_L_0.9_kappa_0.5",
+      "arguments": [
+        "Materials/consts/prop_values=0.9",
+        "Kernels/ACInterface/kappa_name=0.5"
+      ]
+    },
+    {
+      "job_id": "35",
+      "directory": "output/AC_L_0.4_kappa_0.6",
+      "arguments": [
+        "Materials/consts/prop_values=0.4",
+        "Kernels/ACInterface/kappa_name=0.6"
+      ]
+    },
+    {
+      "job_id": "27",
+      "directory": "output/AC_L_0.30000000000000004_kappa_0.8",
+      "arguments": [
+        "Materials/consts/prop_values=0.30000000000000004",
+        "Kernels/ACInterface/kappa_name=0.8"
+      ]
+    },
+    {
+      "job_id": "94",
+      "directory": "output/AC_L_1.0_kappa_0.5",
+      "arguments": [
+        "Materials/consts/prop_values=1.0",
+        "Kernels/ACInterface/kappa_name=0.5"
+      ]
+    },
+    {
+      "job_id": "62",
+      "directory": "output/AC_L_0.7000000000000001_kappa_0.30000000000000004",
+      "arguments": [
+        "Materials/consts/prop_values=0.7000000000000001",
+        "Kernels/ACInterface/kappa_name=0.30000000000000004"
+      ]
+    },
+    {
+      "job_id": "97",
+      "directory": "output/AC_L_1.0_kappa_0.8",
+      "arguments": [
+        "Materials/consts/prop_values=1.0",
+        "Kernels/ACInterface/kappa_name=0.8"
+      ]
+    },
+    {
+      "job_id": "3",
+      "directory": "output/AC_L_0.1_kappa_0.4",
+      "arguments": [
+        "Materials/consts/prop_values=0.1",
+        "Kernels/ACInterface/kappa_name=0.4"
+      ]
+    },
+    {
+      "job_id": "58",
+      "directory": "output/AC_L_0.6_kappa_0.9",
+      "arguments": [
+        "Materials/consts/prop_values=0.6",
+        "Kernels/ACInterface/kappa_name=0.9"
+      ]
+    },
+    {
+      "job_id": "71",
+      "directory": "output/AC_L_0.8_kappa_0.2",
+      "arguments": [
+        "Materials/consts/prop_values=0.8",
+        "Kernels/ACInterface/kappa_name=0.2"
+      ]
+    },
+    {
+      "job_id": "42",
+      "directory": "output/AC_L_0.5_kappa_0.30000000000000004",
+      "arguments": [
+        "Materials/consts/prop_values=0.5",
+        "Kernels/ACInterface/kappa_name=0.30000000000000004"
+      ]
+    },
+    {
+      "job_id": "79",
+      "directory": "output/AC_L_0.8_kappa_1.0",
+      "arguments": [
+        "Materials/consts/prop_values=0.8",
+        "Kernels/ACInterface/kappa_name=1.0"
+      ]
+    },
+    {
+      "job_id": "93",
+      "directory": "output/AC_L_1.0_kappa_0.4",
+      "arguments": [
+        "Materials/consts/prop_values=1.0",
+        "Kernels/ACInterface/kappa_name=0.4"
+      ]
+    },
+    {
+      "job_id": "36",
+      "directory": "output/AC_L_0.4_kappa_0.7000000000000001",
+      "arguments": [
+        "Materials/consts/prop_values=0.4",
+        "Kernels/ACInterface/kappa_name=0.7000000000000001"
+      ]
+    },
+    {
+      "job_id": "10",
+      "directory": "output/AC_L_0.2_kappa_0.1",
+      "arguments": [
+        "Materials/consts/prop_values=0.2",
+        "Kernels/ACInterface/kappa_name=0.1"
+      ]
+    },
+    {
+      "job_id": "16",
+      "directory": "output/AC_L_0.2_kappa_0.7000000000000001",
+      "arguments": [
+        "Materials/consts/prop_values=0.2",
+        "Kernels/ACInterface/kappa_name=0.7000000000000001"
+      ]
+    },
+    {
+      "job_id": "4",
+      "directory": "output/AC_L_0.1_kappa_0.5",
+      "arguments": [
+        "Materials/consts/prop_values=0.1",
+        "Kernels/ACInterface/kappa_name=0.5"
+      ]
+    },
+    {
+      "job_id": "81",
+      "directory": "output/AC_L_0.9_kappa_0.2",
+      "arguments": [
+        "Materials/consts/prop_values=0.9",
+        "Kernels/ACInterface/kappa_name=0.2"
+      ]
+    },
+    {
+      "job_id": "8",
+      "directory": "output/AC_L_0.1_kappa_0.9",
+      "arguments": [
+        "Materials/consts/prop_values=0.1",
+        "Kernels/ACInterface/kappa_name=0.9"
+      ]
+    },
+    {
+      "job_id": "30",
+      "directory": "output/AC_L_0.4_kappa_0.1",
+      "arguments": [
+        "Materials/consts/prop_values=0.4",
+        "Kernels/ACInterface/kappa_name=0.1"
+      ]
+    },
+    {
+      "job_id": "38",
+      "directory": "output/AC_L_0.4_kappa_0.9",
+      "arguments": [
+        "Materials/consts/prop_values=0.4",
+        "Kernels/ACInterface/kappa_name=0.9"
+      ]
+    },
+    {
+      "job_id": "89",
+      "directory": "output/AC_L_0.9_kappa_1.0",
+      "arguments": [
+        "Materials/consts/prop_values=0.9",
+        "Kernels/ACInterface/kappa_name=1.0"
+      ]
+    },
+    {
+      "job_id": "75",
+      "directory": "output/AC_L_0.8_kappa_0.6",
+      "arguments": [
+        "Materials/consts/prop_values=0.8",
+        "Kernels/ACInterface/kappa_name=0.6"
+      ]
+    },
+    {
+      "job_id": "15",
+      "directory": "output/AC_L_0.2_kappa_0.6",
+      "arguments": [
+        "Materials/consts/prop_values=0.2",
+        "Kernels/ACInterface/kappa_name=0.6"
+      ]
+    },
+    {
+      "job_id": "72",
+      "directory": "output/AC_L_0.8_kappa_0.30000000000000004",
+      "arguments": [
+        "Materials/consts/prop_values=0.8",
+        "Kernels/ACInterface/kappa_name=0.30000000000000004"
+      ]
+    },
+    {
+      "job_id": "67",
+      "directory": "output/AC_L_0.7000000000000001_kappa_0.8",
+      "arguments": [
+        "Materials/consts/prop_values=0.7000000000000001",
+        "Kernels/ACInterface/kappa_name=0.8"
+      ]
+    },
+    {
+      "job_id": "54",
+      "directory": "output/AC_L_0.6_kappa_0.5",
+      "arguments": [
+        "Materials/consts/prop_values=0.6",
+        "Kernels/ACInterface/kappa_name=0.5"
+      ]
+    },
+    {
+      "job_id": "77",
+      "directory": "output/AC_L_0.8_kappa_0.8",
+      "arguments": [
+        "Materials/consts/prop_values=0.8",
+        "Kernels/ACInterface/kappa_name=0.8"
+      ]
+    },
+    {
+      "job_id": "92",
+      "directory": "output/AC_L_1.0_kappa_0.30000000000000004",
+      "arguments": [
+        "Materials/consts/prop_values=1.0",
+        "Kernels/ACInterface/kappa_name=0.30000000000000004"
+      ]
+    },
+    {
+      "job_id": "74",
+      "directory": "output/AC_L_0.8_kappa_0.5",
+      "arguments": [
+        "Materials/consts/prop_values=0.8",
+        "Kernels/ACInterface/kappa_name=0.5"
+      ]
+    },
+    {
+      "job_id": "90",
+      "directory": "output/AC_L_1.0_kappa_0.1",
+      "arguments": [
+        "Materials/consts/prop_values=1.0",
+        "Kernels/ACInterface/kappa_name=0.1"
+      ]
+    },
+    {
+      "job_id": "13",
+      "directory": "output/AC_L_0.2_kappa_0.4",
+      "arguments": [
+        "Materials/consts/prop_values=0.2",
+        "Kernels/ACInterface/kappa_name=0.4"
+      ]
+    },
+    {
+      "job_id": "12",
+      "directory": "output/AC_L_0.2_kappa_0.30000000000000004",
+      "arguments": [
+        "Materials/consts/prop_values=0.2",
+        "Kernels/ACInterface/kappa_name=0.30000000000000004"
+      ]
+    },
+    {
+      "job_id": "53",
+      "directory": "output/AC_L_0.6_kappa_0.4",
+      "arguments": [
+        "Materials/consts/prop_values=0.6",
+        "Kernels/ACInterface/kappa_name=0.4"
+      ]
+    },
+    {
+      "job_id": "40",
+      "directory": "output/AC_L_0.5_kappa_0.1",
+      "arguments": [
+        "Materials/consts/prop_values=0.5",
+        "Kernels/ACInterface/kappa_name=0.1"
+      ]
+    },
+    {
+      "job_id": "52",
+      "directory": "output/AC_L_0.6_kappa_0.30000000000000004",
+      "arguments": [
+        "Materials/consts/prop_values=0.6",
+        "Kernels/ACInterface/kappa_name=0.30000000000000004"
+      ]
+    },
+    {
+      "job_id": "18",
+      "directory": "output/AC_L_0.2_kappa_0.9",
+      "arguments": [
+        "Materials/consts/prop_values=0.2",
+        "Kernels/ACInterface/kappa_name=0.9"
+      ]
+    },
+    {
+      "job_id": "9",
+      "directory": "output/AC_L_0.1_kappa_1.0",
+      "arguments": [
+        "Materials/consts/prop_values=0.1",
+        "Kernels/ACInterface/kappa_name=1.0"
+      ]
+    },
+    {
+      "job_id": "26",
+      "directory": "output/AC_L_0.30000000000000004_kappa_0.7000000000000001",
+      "arguments": [
+        "Materials/consts/prop_values=0.30000000000000004",
+        "Kernels/ACInterface/kappa_name=0.7000000000000001"
+      ]
+    },
+    {
+      "job_id": "5",
+      "directory": "output/AC_L_0.1_kappa_0.6",
+      "arguments": [
+        "Materials/consts/prop_values=0.1",
+        "Kernels/ACInterface/kappa_name=0.6"
+      ]
+    },
+    {
+      "job_id": "86",
+      "directory": "output/AC_L_0.9_kappa_0.7000000000000001",
+      "arguments": [
+        "Materials/consts/prop_values=0.9",
+        "Kernels/ACInterface/kappa_name=0.7000000000000001"
+      ]
+    },
+    {
+      "job_id": "25",
+      "directory": "output/AC_L_0.30000000000000004_kappa_0.6",
+      "arguments": [
+        "Materials/consts/prop_values=0.30000000000000004",
+        "Kernels/ACInterface/kappa_name=0.6"
+      ]
+    },
+    {
+      "job_id": "33",
+      "directory": "output/AC_L_0.4_kappa_0.4",
+      "arguments": [
+        "Materials/consts/prop_values=0.4",
+        "Kernels/ACInterface/kappa_name=0.4"
+      ]
+    },
+    {
+      "job_id": "0",
+      "directory": "output/AC_L_0.1_kappa_0.1",
+      "arguments": [
+        "Materials/consts/prop_values=0.1",
+        "Kernels/ACInterface/kappa_name=0.1"
+      ]
+    },
+    {
+      "job_id": "7",
+      "directory": "output/AC_L_0.1_kappa_0.8",
+      "arguments": [
+        "Materials/consts/prop_values=0.1",
+        "Kernels/ACInterface/kappa_name=0.8"
+      ]
+    },
+    {
+      "job_id": "70",
+      "directory": "output/AC_L_0.8_kappa_0.1",
+      "arguments": [
+        "Materials/consts/prop_values=0.8",
+        "Kernels/ACInterface/kappa_name=0.1"
+      ]
+    },
+    {
+      "job_id": "47",
+      "directory": "output/AC_L_0.5_kappa_0.8",
+      "arguments": [
+        "Materials/consts/prop_values=0.5",
+        "Kernels/ACInterface/kappa_name=0.8"
+      ]
+    },
+    {
+      "job_id": "83",
+      "directory": "output/AC_L_0.9_kappa_0.4",
+      "arguments": [
+        "Materials/consts/prop_values=0.9",
+        "Kernels/ACInterface/kappa_name=0.4"
+      ]
+    },
+    {
+      "job_id": "6",
+      "directory": "output/AC_L_0.1_kappa_0.7000000000000001",
+      "arguments": [
+        "Materials/consts/prop_values=0.1",
+        "Kernels/ACInterface/kappa_name=0.7000000000000001"
+      ]
+    }
+  ],
+  "Running tasks details": [],
+  "Pending tasks details": [],
+  "Failed tasks details": []
+}

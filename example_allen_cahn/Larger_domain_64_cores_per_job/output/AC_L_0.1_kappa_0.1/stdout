@@ -1,0 +1,5376 @@
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+Framework Information:
+Framework Information:
+Framework Information:
+Framework Information:
+Framework Information:
+Framework Information:
+Framework Information:
+Framework Information:
+Framework Information:
+Framework Information:
+Framework Information:
+Framework Information:
+Framework Information:
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Framework Information:
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+
+
+
+
+
+
+
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+
+
+
+
+
+
+Input File(s):
+Input File(s):
+Input File(s):
+Input File(s):
+Input File(s):
+Input File(s):
+Input File(s):
+Input File(s):
+PETSc Version:           3.22.1
+Input File(s):
+Input File(s):
+Input File(s):
+Input File(s):
+Input File(s):
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+SLEPc Version:           3.22.1
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+
+
+
+
+
+
+
+Current Time:            Wed Dec 17 16:27:36 2025
+
+
+
+
+
+
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+Input File(s):
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+
+
+
+
+
+
+
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+
+
+
+
+
+Checkpoint:
+Checkpoint:
+Checkpoint:
+Checkpoint:
+Checkpoint:
+Checkpoint:
+Checkpoint:
+Checkpoint:
+
+Checkpoint:
+Checkpoint:
+Checkpoint:
+Checkpoint:
+Checkpoint:
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+Command Line Input Argument(s):
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  Materials/consts/prop_values=0.1
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  Kernels/ACInterface/kappa_name=0.1
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+
+
+
+
+
+
+
+
+Checkpoint:
+
+
+
+
+
+
+Parallelism:
+Parallelism:
+Parallelism:
+Parallelism:
+Parallelism:
+Parallelism:
+Parallelism:
+Parallelism:
+  Wall Time Interval:      Every 3600 s
+Parallelism:
+Parallelism:
+Parallelism:
+Parallelism:
+Parallelism:
+Parallelism:
+  Num Processors:          1
+  Num Processors:          1
+  Num Processors:          1
+  Num Processors:          1
+  Num Processors:          1
+  Num Processors:          1
+  Num Processors:          1
+  Num Processors:          1
+  User Checkpoint:         Disabled
+  Num Processors:          1
+  Num Processors:          1
+  Num Processors:          1
+  Num Processors:          1
+  Num Processors:          1
+  Num Processors:          1
+  Num Threads:             1
+  Num Threads:             1
+  Num Threads:             1
+  Num Threads:             1
+  Num Threads:             1
+  Num Threads:             1
+  Num Threads:             1
+  Num Threads:             1
+  # Checkpoints Kept:      2
+  Num Threads:             1
+  Num Threads:             1
+  Num Threads:             1
+  Num Threads:             1
+  Num Threads:             1
+  Num Threads:             1
+
+
+
+
+
+
+
+
+  Execute On:              TIMESTEP_END 
+
+
+
+
+
+
+Mesh: 
+Mesh: 
+Mesh: 
+Mesh: 
+Mesh: 
+Mesh: 
+Mesh: 
+Mesh: 
+
+Mesh: 
+Mesh: 
+Mesh: 
+Mesh: 
+Mesh: 
+Mesh: 
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+Parallelism:
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Num Processors:          1
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Num Threads:             1
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Nodes:                   10201
+  Nodes:                   10201
+  Nodes:                   10201
+  Nodes:                   10201
+  Nodes:                   10201
+  Nodes:                   10201
+  Nodes:                   10201
+
+  Nodes:                   10201
+  Nodes:                   10201
+  Nodes:                   10201
+  Nodes:                   10201
+  Nodes:                   10201
+  Nodes:                   10201
+  Elems:                   10000
+  Elems:                   10000
+  Elems:                   10000
+  Elems:                   10000
+  Elems:                   10000
+  Elems:                   10000
+  Elems:                   10000
+  Elems:                   10000
+Mesh: 
+  Elems:                   10000
+  Elems:                   10000
+  Elems:                   10000
+  Elems:                   10000
+  Elems:                   10000
+  Elems:                   10000
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Parallel Type:           replicated
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Num Subdomains:          1
+
+
+
+
+
+
+
+
+  Mesh Dimension:          2
+
+
+
+
+
+
+Nonlinear System:
+Nonlinear System:
+Nonlinear System:
+Nonlinear System:
+Nonlinear System:
+Nonlinear System:
+Nonlinear System:
+Nonlinear System:
+  Spatial Dimension:       2
+Nonlinear System:
+Nonlinear System:
+Nonlinear System:
+Nonlinear System:
+Nonlinear System:
+Nonlinear System:
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Nodes:                   10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Elems:                   10000
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Num Subdomains:          1
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+Nonlinear System:
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+
+
+
+
+
+
+
+
+  Num DOFs:                10201
+
+
+
+
+
+
+Execution Information:
+Execution Information:
+Execution Information:
+Execution Information:
+Execution Information:
+Execution Information:
+Execution Information:
+Execution Information:
+  Num Local DOFs:          10201
+Execution Information:
+Execution Information:
+Execution Information:
+Execution Information:
+Execution Information:
+Execution Information:
+  Executioner:             Transient
+  Executioner:             Transient
+  Executioner:             Transient
+  Executioner:             Transient
+  Executioner:             Transient
+  Executioner:             Transient
+  Executioner:             Transient
+  Executioner:             Transient
+  Variables:               "eta" 
+  Executioner:             Transient
+  Executioner:             Transient
+  Executioner:             Transient
+  Executioner:             Transient
+  Executioner:             Transient
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  Finite Element Types:    "LAGRANGE" 
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  Approximation Orders:    "FIRST" 
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+Execution Information:
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+
+
+
+
+
+
+
+
+  Executioner:             Transient
+
+
+
+
+
+
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+
+Time Step 0, time = 0
+Time Step 0, time = 0
+
+Time Step 1, time = 0.5, dt = 0.5
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Time Step 0, time = 0
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+Framework Information:
+
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+Checkpoint:
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  Wall Time Interval:      Every 3600 s
+PETSc Version:           3.22.1
+  User Checkpoint:         Disabled
+SLEPc Version:           3.22.1
+  # Checkpoints Kept:      2
+Current Time:            Wed Dec 17 16:27:36 2025
+  Execute On:              TIMESTEP_END 
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+
+Parallelism:
+Input File(s):
+  Num Processors:          1
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  Num Threads:             1
+
+
+Command Line Input Argument(s):
+Mesh: 
+  Materials/consts/prop_values=0.1
+  Parallel Type:           replicated
+  Kernels/ACInterface/kappa_name=0.1
+  Mesh Dimension:          2
+
+  Spatial Dimension:       2
+Checkpoint:
+  Nodes:                   10201
+  Wall Time Interval:      Every 3600 s
+  Elems:                   10000
+  User Checkpoint:         Disabled
+  Num Subdomains:          1
+  # Checkpoints Kept:      2
+
+  Execute On:              TIMESTEP_END 
+Nonlinear System:
+
+  Num DOFs:                10201
+Parallelism:
+  Num Local DOFs:          10201
+  Num Processors:          1
+  Variables:               "eta" 
+  Num Threads:             1
+  Finite Element Types:    "LAGRANGE" 
+
+  Approximation Orders:    "FIRST" 
+Mesh: 
+
+  Parallel Type:           replicated
+Execution Information:
+  Mesh Dimension:          2
+  Executioner:             Transient
+  Spatial Dimension:       2
+  TimeStepper:             ConstantDT
+  Nodes:                   10201
+  TimeIntegrator(s):       BDF2
+  Elems:                   10000
+  Solver Mode:             NEWTON
+  Num Subdomains:          1
+  MOOSE Preconditioner:    SMP (auto)
+
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+      0 Linear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+      1 Linear |R| = [32m9.818951e-05[39m
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+      0 Linear |R| = [32m2.849736e-04[39m
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+      2 Linear |R| = [32m6.249883e-07[39m
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+      1 Linear |R| = [32m7.620231e-07[39m
+  MOOSE Preconditioner:    SMP (auto)
+
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+      2 Linear |R| = [32m4.686151e-09[39m
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+
+Time Step 1, time = 0.5, dt = 0.5
+Command Line Input Argument(s):
+      3 Linear |R| = [32m3.804343e-09[39m
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+      3 Linear |R| = [32m2.357435e-11[39m
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+      0 Linear |R| = [32m3.246534e-02[39m
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+      1 Linear |R| = [32m9.818951e-05[39m
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+      2 Linear |R| = [32m6.249883e-07[39m
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+      3 Linear |R| = [32m3.804343e-09[39m
+Framework Information:
+
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+Time Step 1, time = 0.5, dt = 0.5
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+Framework Information:
+  Num Local DOFs:          10201
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  Variables:               "eta" 
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  Finite Element Types:    "LAGRANGE" 
+PETSc Version:           3.22.1
+Framework Information:
+  Approximation Orders:    "FIRST" 
+SLEPc Version:           3.22.1
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+
+Current Time:            Wed Dec 17 16:27:36 2025
+Framework Information:
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+Execution Information:
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+PETSc Version:           3.22.1
+  Executioner:             Transient
+
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+SLEPc Version:           3.22.1
+  TimeStepper:             ConstantDT
+Input File(s):
+PETSc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Framework Information:
+  TimeIntegrator(s):       BDF2
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+SLEPc Version:           3.22.1
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  Solver Mode:             NEWTON
+
+Current Time:            Wed Dec 17 16:27:36 2025
+
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  MOOSE Preconditioner:    SMP (auto)
+Command Line Input Argument(s):
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Input File(s):
+PETSc Version:           3.22.1
+
+  Materials/consts/prop_values=0.1
+
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+SLEPc Version:           3.22.1
+  Kernels/ACInterface/kappa_name=0.1
+Input File(s):
+
+Current Time:            Wed Dec 17 16:27:36 2025
+
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+Command Line Input Argument(s):
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Checkpoint:
+
+  Materials/consts/prop_values=0.1
+
+  Wall Time Interval:      Every 3600 s
+Command Line Input Argument(s):
+  Kernels/ACInterface/kappa_name=0.1
+Input File(s):
+  User Checkpoint:         Disabled
+  Materials/consts/prop_values=0.1
+
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  # Checkpoints Kept:      2
+  Kernels/ACInterface/kappa_name=0.1
+Checkpoint:
+
+  Execute On:              TIMESTEP_END 
+
+  Wall Time Interval:      Every 3600 s
+Command Line Input Argument(s):
+
+Checkpoint:
+  User Checkpoint:         Disabled
+  Materials/consts/prop_values=0.1
+Parallelism:
+  Wall Time Interval:      Every 3600 s
+  # Checkpoints Kept:      2
+  Kernels/ACInterface/kappa_name=0.1
+  Num Processors:          1
+  User Checkpoint:         Disabled
+  Execute On:              TIMESTEP_END 
+
+  Num Threads:             1
+  # Checkpoints Kept:      2
+
+Checkpoint:
+
+  Execute On:              TIMESTEP_END 
+Parallelism:
+  Wall Time Interval:      Every 3600 s
+Mesh: 
+
+  Num Processors:          1
+  User Checkpoint:         Disabled
+  Parallel Type:           replicated
+Parallelism:
+  Num Threads:             1
+  # Checkpoints Kept:      2
+  Mesh Dimension:          2
+  Num Processors:          1
+
+  Execute On:              TIMESTEP_END 
+  Spatial Dimension:       2
+  Num Threads:             1
+Mesh: 
+
+  Nodes:                   10201
+
+  Parallel Type:           replicated
+Parallelism:
+  Elems:                   10000
+Mesh: 
+  Mesh Dimension:          2
+  Num Processors:          1
+  Num Subdomains:          1
+  Parallel Type:           replicated
+Framework Information:
+  Spatial Dimension:       2
+Framework Information:
+  Num Threads:             1
+
+  Mesh Dimension:          2
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  Nodes:                   10201
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+
+Nonlinear System:
+  Spatial Dimension:       2
+Framework Information:
+Framework Information:
+Framework Information:
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  Elems:                   10000
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+Mesh: 
+  Num DOFs:                10201
+  Nodes:                   10201
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+PETSc Version:           3.22.1
+  Num Subdomains:          1
+PETSc Version:           3.22.1
+  Parallel Type:           replicated
+  Num Local DOFs:          10201
+  Elems:                   10000
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+SLEPc Version:           3.22.1
+
+SLEPc Version:           3.22.1
+  Mesh Dimension:          2
+  Variables:               "eta" 
+  Num Subdomains:          1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:36 2025
+Nonlinear System:
+Current Time:            Wed Dec 17 16:27:36 2025
+  Spatial Dimension:       2
+  Finite Element Types:    "LAGRANGE" 
+
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+  Num DOFs:                10201
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+  Nodes:                   10201
+  Approximation Orders:    "FIRST" 
+Nonlinear System:
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+Current Time:            Wed Dec 17 16:27:36 2025
+
+  Num Local DOFs:          10201
+
+  Elems:                   10000
+
+  Num DOFs:                10201
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Input File(s):
+  Variables:               "eta" 
+Input File(s):
+  Num Subdomains:          1
+Execution Information:
+  Num Local DOFs:          10201
+
+
+
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  Finite Element Types:    "LAGRANGE" 
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+  Executioner:             Transient
+  Variables:               "eta" 
+Input File(s):
+Input File(s):
+Input File(s):
+
+  Approximation Orders:    "FIRST" 
+
+Nonlinear System:
+  TimeStepper:             ConstantDT
+  Finite Element Types:    "LAGRANGE" 
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+Command Line Input Argument(s):
+
+Command Line Input Argument(s):
+  Num DOFs:                10201
+  TimeIntegrator(s):       BDF2
+  Approximation Orders:    "FIRST" 
+
+
+
+  Materials/consts/prop_values=0.1
+Execution Information:
+  Materials/consts/prop_values=0.1
+  Num Local DOFs:          10201
+  Solver Mode:             NEWTON
+
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+  Kernels/ACInterface/kappa_name=0.1
+  Executioner:             Transient
+  Kernels/ACInterface/kappa_name=0.1
+  Variables:               "eta" 
+  MOOSE Preconditioner:    SMP (auto)
+Execution Information:
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+
+  TimeStepper:             ConstantDT
+
+  Finite Element Types:    "LAGRANGE" 
+
+  Executioner:             Transient
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+Checkpoint:
+  TimeIntegrator(s):       BDF2
+Checkpoint:
+Framework Information:
+  Approximation Orders:    "FIRST" 
+  TimeStepper:             ConstantDT
+
+
+
+  Wall Time Interval:      Every 3600 s
+  Solver Mode:             NEWTON
+  Wall Time Interval:      Every 3600 s
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+
+  TimeIntegrator(s):       BDF2
+Checkpoint:
+Checkpoint:
+Checkpoint:
+  User Checkpoint:         Disabled
+  MOOSE Preconditioner:    SMP (auto)
+  User Checkpoint:         Disabled
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+Execution Information:
+  Solver Mode:             NEWTON
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  # Checkpoints Kept:      2
+
+  # Checkpoints Kept:      2
+PETSc Version:           3.22.1
+  Executioner:             Transient
+  MOOSE Preconditioner:    SMP (auto)
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+SLEPc Version:           3.22.1
+  TimeStepper:             ConstantDT
+
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+
+
+Current Time:            Wed Dec 17 16:27:36 2025
+  TimeIntegrator(s):       BDF2
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+Parallelism:
+Parallelism:
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+  Solver Mode:             NEWTON
+
+
+
+  Num Processors:          1
+  Num Processors:          1
+
+  MOOSE Preconditioner:    SMP (auto)
+Parallelism:
+Parallelism:
+Parallelism:
+  Num Threads:             1
+  Num Threads:             1
+Input File(s):
+
+  Num Processors:          1
+  Num Processors:          1
+  Num Processors:          1
+
+
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  Num Threads:             1
+  Num Threads:             1
+  Num Threads:             1
+Mesh: 
+Mesh: 
+
+
+
+
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+Command Line Input Argument(s):
+Mesh: 
+Mesh: 
+Mesh: 
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Materials/consts/prop_values=0.1
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Kernels/ACInterface/kappa_name=0.1
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+  Nodes:                   10201
+  Nodes:                   10201
+
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+  Elems:                   10000
+  Elems:                   10000
+Checkpoint:
+  Nodes:                   10201
+  Nodes:                   10201
+  Nodes:                   10201
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Wall Time Interval:      Every 3600 s
+  Elems:                   10000
+  Elems:                   10000
+  Elems:                   10000
+
+
+  User Checkpoint:         Disabled
+  Num Subdomains:          1
+  Num Subdomains:          1
+  Num Subdomains:          1
+Nonlinear System:
+Nonlinear System:
+  # Checkpoints Kept:      2
+
+
+
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Execute On:              TIMESTEP_END 
+Nonlinear System:
+Nonlinear System:
+Nonlinear System:
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Num DOFs:                10201
+  Variables:               "eta" 
+  Variables:               "eta" 
+Parallelism:
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Num Processors:          1
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Num Threads:             1
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+
+
+
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+Execution Information:
+Execution Information:
+Mesh: 
+
+
+
+  Executioner:             Transient
+  Executioner:             Transient
+  Parallel Type:           replicated
+Framework Information:
+Execution Information:
+Execution Information:
+Execution Information:
+Framework Information:
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  Mesh Dimension:          2
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  Executioner:             Transient
+  Executioner:             Transient
+  Executioner:             Transient
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  Spatial Dimension:       2
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+  Nodes:                   10201
+PETSc Version:           3.22.1
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+Framework Information:
+  TimeIntegrator(s):       BDF2
+PETSc Version:           3.22.1
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+  Elems:                   10000
+SLEPc Version:           3.22.1
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  Solver Mode:             NEWTON
+SLEPc Version:           3.22.1
+
+
+  Num Subdomains:          1
+Current Time:            Wed Dec 17 16:27:36 2025
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  MOOSE Preconditioner:    SMP (auto)
+Current Time:            Wed Dec 17 16:27:36 2025
+
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+
+PETSc Version:           3.22.1
+
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Nonlinear System:
+
+SLEPc Version:           3.22.1
+
+  Num DOFs:                10201
+Input File(s):
+Current Time:            Wed Dec 17 16:27:36 2025
+Input File(s):
+  Num Local DOFs:          10201
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  Variables:               "eta" 
+Framework Information:
+
+
+
+  Finite Element Types:    "LAGRANGE" 
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+Command Line Input Argument(s):
+Input File(s):
+Command Line Input Argument(s):
+  Approximation Orders:    "FIRST" 
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  Materials/consts/prop_values=0.1
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  Materials/consts/prop_values=0.1
+
+PETSc Version:           3.22.1
+  Kernels/ACInterface/kappa_name=0.1
+
+  Kernels/ACInterface/kappa_name=0.1
+Execution Information:
+SLEPc Version:           3.22.1
+
+Command Line Input Argument(s):
+
+  Executioner:             Transient
+Current Time:            Wed Dec 17 16:27:36 2025
+Checkpoint:
+  Materials/consts/prop_values=0.1
+Checkpoint:
+  TimeStepper:             ConstantDT
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+  Wall Time Interval:      Every 3600 s
+  Kernels/ACInterface/kappa_name=0.1
+  Wall Time Interval:      Every 3600 s
+  TimeIntegrator(s):       BDF2
+
+  User Checkpoint:         Disabled
+
+  User Checkpoint:         Disabled
+  Solver Mode:             NEWTON
+Input File(s):
+  # Checkpoints Kept:      2
+Checkpoint:
+  # Checkpoints Kept:      2
+  MOOSE Preconditioner:    SMP (auto)
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  Execute On:              TIMESTEP_END 
+  Wall Time Interval:      Every 3600 s
+  Execute On:              TIMESTEP_END 
+
+
+
+  User Checkpoint:         Disabled
+
+Command Line Input Argument(s):
+Parallelism:
+  # Checkpoints Kept:      2
+Parallelism:
+  Materials/consts/prop_values=0.1
+  Num Processors:          1
+  Execute On:              TIMESTEP_END 
+  Num Processors:          1
+  Kernels/ACInterface/kappa_name=0.1
+  Num Threads:             1
+
+  Num Threads:             1
+
+
+Parallelism:
+
+Checkpoint:
+Mesh: 
+  Num Processors:          1
+Mesh: 
+  Wall Time Interval:      Every 3600 s
+  Parallel Type:           replicated
+  Num Threads:             1
+  Parallel Type:           replicated
+  User Checkpoint:         Disabled
+  Mesh Dimension:          2
+
+  Mesh Dimension:          2
+  # Checkpoints Kept:      2
+  Spatial Dimension:       2
+Mesh: 
+  Spatial Dimension:       2
+  Execute On:              TIMESTEP_END 
+  Nodes:                   10201
+  Parallel Type:           replicated
+  Nodes:                   10201
+
+  Elems:                   10000
+  Mesh Dimension:          2
+  Elems:                   10000
+Parallelism:
+  Num Subdomains:          1
+  Spatial Dimension:       2
+  Num Subdomains:          1
+  Num Processors:          1
+
+  Nodes:                   10201
+
+  Num Threads:             1
+Nonlinear System:
+  Elems:                   10000
+Nonlinear System:
+
+  Num DOFs:                10201
+  Num Subdomains:          1
+  Num DOFs:                10201
+Mesh: 
+  Num Local DOFs:          10201
+
+  Num Local DOFs:          10201
+  Parallel Type:           replicated
+  Variables:               "eta" 
+Nonlinear System:
+  Variables:               "eta" 
+  Mesh Dimension:          2
+  Finite Element Types:    "LAGRANGE" 
+  Num DOFs:                10201
+  Finite Element Types:    "LAGRANGE" 
+  Spatial Dimension:       2
+  Approximation Orders:    "FIRST" 
+  Num Local DOFs:          10201
+  Approximation Orders:    "FIRST" 
+  Nodes:                   10201
+
+  Variables:               "eta" 
+
+  Elems:                   10000
+Execution Information:
+  Finite Element Types:    "LAGRANGE" 
+Execution Information:
+  Num Subdomains:          1
+  Executioner:             Transient
+  Approximation Orders:    "FIRST" 
+  Executioner:             Transient
+
+  TimeStepper:             ConstantDT
+
+  TimeStepper:             ConstantDT
+Nonlinear System:
+  TimeIntegrator(s):       BDF2
+Execution Information:
+  TimeIntegrator(s):       BDF2
+  Num DOFs:                10201
+  Solver Mode:             NEWTON
+  Executioner:             Transient
+  Solver Mode:             NEWTON
+  Num Local DOFs:          10201
+  MOOSE Preconditioner:    SMP (auto)
+  TimeStepper:             ConstantDT
+  MOOSE Preconditioner:    SMP (auto)
+  Variables:               "eta" 
+
+  TimeIntegrator(s):       BDF2
+
+  Finite Element Types:    "LAGRANGE" 
+  Solver Mode:             NEWTON
+  Approximation Orders:    "FIRST" 
+  MOOSE Preconditioner:    SMP (auto)
+
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+
+Time Step 0, time = 0
+      3 Linear |R| = [32m2.357435e-11[39m
+
+Time Step 0, time = 0
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+
+Time Step 0, time = 0
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+
+Time Step 0, time = 0
+
+
+Time Step 0, time = 0
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 0, time = 0
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+
+Time Step 0, time = 0
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+
+
+Time Step 0, time = 0
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+
+Time Step 0, time = 0
+Time Step 1, time = 0.5, dt = 0.5
+
+Time Step 0, time = 0
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      3 Linear |R| = [32m3.804343e-09[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+
+      0 Linear |R| = [32m3.246534e-02[39m
+Time Step 1, time = 0.5, dt = 0.5
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      2 Linear |R| = [32m4.686151e-09[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:37 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+Framework Information:
+  Num Processors:          1
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  Num Threads:             1
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+
+PETSc Version:           3.22.1
+Mesh: 
+SLEPc Version:           3.22.1
+  Parallel Type:           replicated
+Current Time:            Wed Dec 17 16:27:37 2025
+  Mesh Dimension:          2
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+  Spatial Dimension:       2
+Framework Information:
+
+  Nodes:                   10201
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+Input File(s):
+  Elems:                   10000
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  Num Subdomains:          1
+PETSc Version:           3.22.1
+
+
+SLEPc Version:           3.22.1
+Command Line Input Argument(s):
+Nonlinear System:
+Current Time:            Wed Dec 17 16:27:37 2025
+  Materials/consts/prop_values=0.1
+  Num DOFs:                10201
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+  Kernels/ACInterface/kappa_name=0.1
+  Num Local DOFs:          10201
+
+
+  Variables:               "eta" 
+Input File(s):
+Checkpoint:
+  Finite Element Types:    "LAGRANGE" 
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  Wall Time Interval:      Every 3600 s
+  Approximation Orders:    "FIRST" 
+
+  User Checkpoint:         Disabled
+
+Command Line Input Argument(s):
+  # Checkpoints Kept:      2
+Execution Information:
+  Materials/consts/prop_values=0.1
+  Execute On:              TIMESTEP_END 
+  Executioner:             Transient
+  Kernels/ACInterface/kappa_name=0.1
+
+  TimeStepper:             ConstantDT
+
+Parallelism:
+  TimeIntegrator(s):       BDF2
+Checkpoint:
+  Num Processors:          1
+  Solver Mode:             NEWTON
+  Wall Time Interval:      Every 3600 s
+  Num Threads:             1
+  MOOSE Preconditioner:    SMP (auto)
+  User Checkpoint:         Disabled
+
+
+  # Checkpoints Kept:      2
+Mesh: 
+  Execute On:              TIMESTEP_END 
+  Parallel Type:           replicated
+
+  Mesh Dimension:          2
+Parallelism:
+  Spatial Dimension:       2
+  Num Processors:          1
+  Nodes:                   10201
+  Num Threads:             1
+  Elems:                   10000
+
+  Num Subdomains:          1
+Mesh: 
+
+  Parallel Type:           replicated
+Nonlinear System:
+  Mesh Dimension:          2
+  Num DOFs:                10201
+  Spatial Dimension:       2
+  Num Local DOFs:          10201
+  Nodes:                   10201
+  Variables:               "eta" 
+  Elems:                   10000
+  Finite Element Types:    "LAGRANGE" 
+  Num Subdomains:          1
+  Approximation Orders:    "FIRST" 
+
+
+Nonlinear System:
+Execution Information:
+Framework Information:
+  Num DOFs:                10201
+  Executioner:             Transient
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  Num Local DOFs:          10201
+  TimeStepper:             ConstantDT
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  Variables:               "eta" 
+  TimeIntegrator(s):       BDF2
+PETSc Version:           3.22.1
+  Finite Element Types:    "LAGRANGE" 
+  Solver Mode:             NEWTON
+SLEPc Version:           3.22.1
+  Approximation Orders:    "FIRST" 
+  MOOSE Preconditioner:    SMP (auto)
+Current Time:            Wed Dec 17 16:27:37 2025
+
+
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Execution Information:
+
+  Executioner:             Transient
+Input File(s):
+  TimeStepper:             ConstantDT
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  TimeIntegrator(s):       BDF2
+
+  Solver Mode:             NEWTON
+Command Line Input Argument(s):
+  MOOSE Preconditioner:    SMP (auto)
+  Materials/consts/prop_values=0.1
+
+  Kernels/ACInterface/kappa_name=0.1
+
+Framework Information:
+Checkpoint:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  Wall Time Interval:      Every 3600 s
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  User Checkpoint:         Disabled
+PETSc Version:           3.22.1
+  # Checkpoints Kept:      2
+SLEPc Version:           3.22.1
+  Execute On:              TIMESTEP_END 
+Current Time:            Wed Dec 17 16:27:37 2025
+
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Parallelism:
+
+  Num Processors:          1
+Input File(s):
+  Num Threads:             1
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+
+Mesh: 
+Command Line Input Argument(s):
+  Parallel Type:           replicated
+  Materials/consts/prop_values=0.1
+  Mesh Dimension:          2
+  Kernels/ACInterface/kappa_name=0.1
+  Spatial Dimension:       2
+
+  Nodes:                   10201
+Checkpoint:
+  Elems:                   10000
+  Wall Time Interval:      Every 3600 s
+  Num Subdomains:          1
+  User Checkpoint:         Disabled
+
+  # Checkpoints Kept:      2
+Nonlinear System:
+  Execute On:              TIMESTEP_END 
+  Num DOFs:                10201
+
+  Num Local DOFs:          10201
+Parallelism:
+  Variables:               "eta" 
+  Num Processors:          1
+  Finite Element Types:    "LAGRANGE" 
+  Num Threads:             1
+  Approximation Orders:    "FIRST" 
+
+
+Mesh: 
+Execution Information:
+  Parallel Type:           replicated
+  Executioner:             Transient
+  Mesh Dimension:          2
+  TimeStepper:             ConstantDT
+  Spatial Dimension:       2
+  TimeIntegrator(s):       BDF2
+  Nodes:                   10201
+  Solver Mode:             NEWTON
+  Elems:                   10000
+  MOOSE Preconditioner:    SMP (auto)
+  Num Subdomains:          1
+
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:37 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:37 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+      0 Linear |R| = [32m2.721972e-08[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+[32m Solve Converged![39m
+      2 Linear |R| = [32m4.244437e-13[39m
+
+Time Step 0, time = 0
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+
+Time Step 0, time = 0
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 0, time = 0
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+
+Time Step 0, time = 0
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+[32m Solve Converged![39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:37 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+Framework Information:
+  Wall Time Interval:      Every 3600 s
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  User Checkpoint:         Disabled
+Framework Information:
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  # Checkpoints Kept:      2
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+PETSc Version:           3.22.1
+  Execute On:              TIMESTEP_END 
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+SLEPc Version:           3.22.1
+
+PETSc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:37 2025
+Parallelism:
+SLEPc Version:           3.22.1
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+  Num Processors:          1
+Current Time:            Wed Dec 17 16:27:37 2025
+
+  Num Threads:             1
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Input File(s):
+
+
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+Mesh: 
+Input File(s):
+
+  Parallel Type:           replicated
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+Command Line Input Argument(s):
+  Mesh Dimension:          2
+
+  Materials/consts/prop_values=0.1
+  Spatial Dimension:       2
+Command Line Input Argument(s):
+  Kernels/ACInterface/kappa_name=0.1
+  Nodes:                   10201
+  Materials/consts/prop_values=0.1
+
+  Elems:                   10000
+  Kernels/ACInterface/kappa_name=0.1
+Checkpoint:
+  Num Subdomains:          1
+
+  Wall Time Interval:      Every 3600 s
+
+Checkpoint:
+  User Checkpoint:         Disabled
+Nonlinear System:
+  Wall Time Interval:      Every 3600 s
+  # Checkpoints Kept:      2
+  Num DOFs:                10201
+  User Checkpoint:         Disabled
+  Execute On:              TIMESTEP_END 
+  Num Local DOFs:          10201
+  # Checkpoints Kept:      2
+
+  Variables:               "eta" 
+  Execute On:              TIMESTEP_END 
+Parallelism:
+  Finite Element Types:    "LAGRANGE" 
+
+  Num Processors:          1
+  Approximation Orders:    "FIRST" 
+Parallelism:
+  Num Threads:             1
+
+  Num Processors:          1
+
+Execution Information:
+  Num Threads:             1
+Mesh: 
+  Executioner:             Transient
+
+  Parallel Type:           replicated
+  TimeStepper:             ConstantDT
+Mesh: 
+  Mesh Dimension:          2
+  TimeIntegrator(s):       BDF2
+  Parallel Type:           replicated
+  Spatial Dimension:       2
+  Solver Mode:             NEWTON
+  Mesh Dimension:          2
+  Nodes:                   10201
+  MOOSE Preconditioner:    SMP (auto)
+  Spatial Dimension:       2
+  Elems:                   10000
+
+  Nodes:                   10201
+  Num Subdomains:          1
+  Elems:                   10000
+
+  Num Subdomains:          1
+Nonlinear System:
+
+  Num DOFs:                10201
+Nonlinear System:
+  Num Local DOFs:          10201
+  Num DOFs:                10201
+  Variables:               "eta" 
+  Num Local DOFs:          10201
+  Finite Element Types:    "LAGRANGE" 
+  Variables:               "eta" 
+  Approximation Orders:    "FIRST" 
+  Finite Element Types:    "LAGRANGE" 
+
+  Approximation Orders:    "FIRST" 
+Execution Information:
+
+  Executioner:             Transient
+Execution Information:
+  TimeStepper:             ConstantDT
+  Executioner:             Transient
+  TimeIntegrator(s):       BDF2
+  TimeStepper:             ConstantDT
+  Solver Mode:             NEWTON
+  TimeIntegrator(s):       BDF2
+  MOOSE Preconditioner:    SMP (auto)
+  Solver Mode:             NEWTON
+
+  MOOSE Preconditioner:    SMP (auto)
+
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:37 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+      0 Linear |R| = [32m3.246534e-02[39m
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:37 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+      1 Linear |R| = [32m9.818951e-05[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+[32m Solve Converged![39m
+Checkpoint:
+      2 Linear |R| = [32m6.249883e-07[39m
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+      3 Linear |R| = [32m3.804343e-09[39m
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+Framework Information:
+  Solver Mode:             NEWTON
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  MOOSE Preconditioner:    SMP (auto)
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:37 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m2.721972e-08[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+Framework Information:
+      2 Linear |R| = [32m4.244437e-13[39m
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+Framework Information:
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+      1 Linear |R| = [32m7.620231e-07[39m
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+PETSc Version:           3.22.1
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+Framework Information:
+SLEPc Version:           3.22.1
+PETSc Version:           3.22.1
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+Current Time:            Wed Dec 17 16:27:37 2025
+SLEPc Version:           3.22.1
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Current Time:            Wed Dec 17 16:27:37 2025
+PETSc Version:           3.22.1
+
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+SLEPc Version:           3.22.1
+Input File(s):
+      2 Linear |R| = [32m4.686151e-09[39m
+
+Current Time:            Wed Dec 17 16:27:37 2025
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+Input File(s):
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+      3 Linear |R| = [32m1.896170e-15[39m
+
+Input File(s):
+  Materials/consts/prop_values=0.1
+Command Line Input Argument(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  Kernels/ACInterface/kappa_name=0.1
+  Materials/consts/prop_values=0.1
+
+
+  Kernels/ACInterface/kappa_name=0.1
+Command Line Input Argument(s):
+Checkpoint:
+
+  Materials/consts/prop_values=0.1
+  Wall Time Interval:      Every 3600 s
+Checkpoint:
+  Kernels/ACInterface/kappa_name=0.1
+  User Checkpoint:         Disabled
+  Wall Time Interval:      Every 3600 s
+
+  # Checkpoints Kept:      2
+  User Checkpoint:         Disabled
+Checkpoint:
+  Execute On:              TIMESTEP_END 
+      3 Linear |R| = [32m2.357435e-11[39m
+  # Checkpoints Kept:      2
+  Wall Time Interval:      Every 3600 s
+
+  Execute On:              TIMESTEP_END 
+  User Checkpoint:         Disabled
+Parallelism:
+
+  # Checkpoints Kept:      2
+  Num Processors:          1
+Parallelism:
+  Execute On:              TIMESTEP_END 
+  Num Threads:             1
+  Num Processors:          1
+
+
+  Num Threads:             1
+Parallelism:
+Mesh: 
+
+  Num Processors:          1
+  Parallel Type:           replicated
+Mesh: 
+  Num Threads:             1
+  Mesh Dimension:          2
+  Parallel Type:           replicated
+
+  Spatial Dimension:       2
+  Mesh Dimension:          2
+Mesh: 
+  Nodes:                   10201
+  Spatial Dimension:       2
+  Parallel Type:           replicated
+  Elems:                   10000
+  Nodes:                   10201
+Framework Information:
+Framework Information:
+  Mesh Dimension:          2
+  Num Subdomains:          1
+  Elems:                   10000
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  Spatial Dimension:       2
+
+  Num Subdomains:          1
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  Nodes:                   10201
+Nonlinear System:
+
+PETSc Version:           3.22.1
+PETSc Version:           3.22.1
+  Elems:                   10000
+  Num DOFs:                10201
+Nonlinear System:
+SLEPc Version:           3.22.1
+SLEPc Version:           3.22.1
+  Num Subdomains:          1
+  Num Local DOFs:          10201
+  Num DOFs:                10201
+Current Time:            Wed Dec 17 16:27:37 2025
+Current Time:            Wed Dec 17 16:27:37 2025
+
+  Variables:               "eta" 
+  Num Local DOFs:          10201
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+Nonlinear System:
+  Finite Element Types:    "LAGRANGE" 
+  Variables:               "eta" 
+
+
+  Num DOFs:                10201
+  Approximation Orders:    "FIRST" 
+  Finite Element Types:    "LAGRANGE" 
+Input File(s):
+Input File(s):
+  Num Local DOFs:          10201
+
+  Approximation Orders:    "FIRST" 
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  Variables:               "eta" 
+Execution Information:
+
+
+
+  Finite Element Types:    "LAGRANGE" 
+  Executioner:             Transient
+Execution Information:
+Command Line Input Argument(s):
+Command Line Input Argument(s):
+  Approximation Orders:    "FIRST" 
+  TimeStepper:             ConstantDT
+  Executioner:             Transient
+  Materials/consts/prop_values=0.1
+  Materials/consts/prop_values=0.1
+
+  TimeIntegrator(s):       BDF2
+  TimeStepper:             ConstantDT
+  Kernels/ACInterface/kappa_name=0.1
+  Kernels/ACInterface/kappa_name=0.1
+Execution Information:
+  Solver Mode:             NEWTON
+  TimeIntegrator(s):       BDF2
+
+
+  Executioner:             Transient
+  MOOSE Preconditioner:    SMP (auto)
+  Solver Mode:             NEWTON
+Checkpoint:
+Checkpoint:
+  TimeStepper:             ConstantDT
+
+  MOOSE Preconditioner:    SMP (auto)
+  Wall Time Interval:      Every 3600 s
+  Wall Time Interval:      Every 3600 s
+  TimeIntegrator(s):       BDF2
+
+  User Checkpoint:         Disabled
+  User Checkpoint:         Disabled
+  Solver Mode:             NEWTON
+  # Checkpoints Kept:      2
+  # Checkpoints Kept:      2
+  MOOSE Preconditioner:    SMP (auto)
+  Execute On:              TIMESTEP_END 
+  Execute On:              TIMESTEP_END 
+
+
+
+Framework Information:
+Parallelism:
+Parallelism:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+  Num Processors:          1
+  Num Processors:          1
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+  Num Threads:             1
+  Num Threads:             1
+PETSc Version:           3.22.1
+
+
+SLEPc Version:           3.22.1
+Mesh: 
+Mesh: 
+Current Time:            Wed Dec 17 16:27:37 2025
+  Parallel Type:           replicated
+  Parallel Type:           replicated
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+  Mesh Dimension:          2
+  Mesh Dimension:          2
+
+  Spatial Dimension:       2
+  Spatial Dimension:       2
+Input File(s):
+  Nodes:                   10201
+  Nodes:                   10201
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+  Elems:                   10000
+  Elems:                   10000
+
+  Num Subdomains:          1
+  Num Subdomains:          1
+Command Line Input Argument(s):
+
+
+  Materials/consts/prop_values=0.1
+Nonlinear System:
+Nonlinear System:
+  Kernels/ACInterface/kappa_name=0.1
+  Num DOFs:                10201
+  Num DOFs:                10201
+
+  Num Local DOFs:          10201
+  Num Local DOFs:          10201
+Checkpoint:
+  Variables:               "eta" 
+  Variables:               "eta" 
+  Wall Time Interval:      Every 3600 s
+  Finite Element Types:    "LAGRANGE" 
+  Finite Element Types:    "LAGRANGE" 
+  User Checkpoint:         Disabled
+  Approximation Orders:    "FIRST" 
+  Approximation Orders:    "FIRST" 
+  # Checkpoints Kept:      2
+
+
+  Execute On:              TIMESTEP_END 
+Execution Information:
+Execution Information:
+
+  Executioner:             Transient
+  Executioner:             Transient
+Parallelism:
+  TimeStepper:             ConstantDT
+  TimeStepper:             ConstantDT
+  Num Processors:          1
+  TimeIntegrator(s):       BDF2
+  TimeIntegrator(s):       BDF2
+  Num Threads:             1
+  Solver Mode:             NEWTON
+  Solver Mode:             NEWTON
+
+  MOOSE Preconditioner:    SMP (auto)
+  MOOSE Preconditioner:    SMP (auto)
+Mesh: 
+
+
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+Framework Information:
+MOOSE Version:           git commit df029b7e4c on 2025-04-09
+LibMesh Version:         c4791b4af32e3864d5160663d2c9e61989fe8d69
+PETSc Version:           3.22.1
+SLEPc Version:           3.22.1
+Current Time:            Wed Dec 17 16:27:37 2025
+Executable Timestamp:    Wed Dec 17 14:56:56 2025
+
+Input File(s):
+  /gpfs/wolf2/cades/mat269/scratch/sny/MOOSE_SIMULATIONS/AutoPF/example_matEnsemble_moose/AC.i
+
+Command Line Input Argument(s):
+  Materials/consts/prop_values=0.1
+  Kernels/ACInterface/kappa_name=0.1
+
+Checkpoint:
+  Wall Time Interval:      Every 3600 s
+  User Checkpoint:         Disabled
+  # Checkpoints Kept:      2
+  Execute On:              TIMESTEP_END 
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   10201
+  Elems:                   10000
+  Num Subdomains:          1
+
+Nonlinear System:
+  Num DOFs:                10201
+  Num Local DOFs:          10201
+  Variables:               "eta" 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             ConstantDT
+  TimeIntegrator(s):       BDF2
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP (auto)
+
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+
+Time Step 0, time = 0
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+
+Time Step 0, time = 0
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+      0 Linear |R| = [32m2.849736e-04[39m
+
+Time Step 0, time = 0
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+
+Time Step 0, time = 0
+
+Time Step 0, time = 0
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+[32m Solve Converged![39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+[32m Solve Converged![39m
+      3 Linear |R| = [32m2.357435e-11[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m3.246534e-02[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+[32m Solve Converged![39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      3 Linear |R| = [32m2.357435e-11[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m2.849736e-04[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+[32m Solve Converged![39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+[32m Solve Converged![39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      2 Linear |R| = [32m6.249883e-07[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      2 Linear |R| = [32m6.249883e-07[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+
+      1 Linear |R| = [32m7.620231e-07[39m
+Time Step 1, time = 0.5, dt = 0.5
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+[32m Solve Converged![39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.721972e-08[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+
+Time Step 2, time = 1, dt = 0.5
+
+Time Step 2, time = 1, dt = 0.5
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+[32m Solve Converged![39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+
+Time Step 2, time = 1, dt = 0.5
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+[32m Solve Converged![39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      2 Linear |R| = [32m1.295841e-07[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+
+Time Step 2, time = 1, dt = 0.5
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+[32m Solve Converged![39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+[32m Solve Converged![39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+[32m Solve Converged![39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+
+Time Step 2, time = 1, dt = 0.5
+      2 Linear |R| = [32m7.048587e-10[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+[32m Solve Converged![39m
+      1 Linear |R| = [32m3.859309e-05[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+
+Time Step 2, time = 1, dt = 0.5
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+[32m Solve Converged![39m
+      1 Linear |R| = [32m1.927130e-07[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+
+Time Step 2, time = 1, dt = 0.5
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+[32m Solve Converged![39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m1.123685e-08[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+
+Time Step 2, time = 1, dt = 0.5
+      1 Linear |R| = [32m1.927130e-07[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+
+Time Step 2, time = 1, dt = 0.5
+      2 Linear |R| = [32m9.554538e-14[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m3.246534e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      3 Linear |R| = [32m3.804343e-09[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+
+Time Step 1, time = 0.5, dt = 0.5
+      2 Linear |R| = [32m7.048587e-10[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 0 Nonlinear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+[32m Solve Converged![39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m2.652677e-04[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m3.246534e-02[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m9.818951e-05[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m6.249883e-07[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      3 Linear |R| = [32m3.804343e-09[39m
+
+Time Step 2, time = 1, dt = 0.5
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+
+Time Step 2, time = 1, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 1 Nonlinear |R| = [32m2.849736e-04[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+
+Time Step 2, time = 1, dt = 0.5
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m2.652677e-04[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+[32m Solve Converged![39m
+Time Step 2, time = 1, dt = 0.5
+
+[32m Solve Converged![39m
+      1 Linear |R| = [32m1.132050e-11[39m
+Time Step 2, time = 1, dt = 0.5
+      2 Linear |R| = [32m9.554538e-14[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m2.849736e-04[39m
+      1 Linear |R| = [32m7.620231e-07[39m
+      2 Linear |R| = [32m4.686151e-09[39m
+      3 Linear |R| = [32m2.357435e-11[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m4.575828e-02[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 2 Nonlinear |R| = [32m2.721972e-08[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      0 Linear |R| = [32m2.721972e-08[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      1 Linear |R| = [32m6.940252e-11[39m
+      2 Linear |R| = [32m4.244437e-13[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      3 Linear |R| = [32m1.896170e-15[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m1.924910e-15[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+
+Time Step 2, time = 1, dt = 0.5
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+
+Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+
+Time Step 2, time = 1, dt = 0.5
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 0 Nonlinear |R| = [32m4.575828e-02[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m4.575828e-02[39m
+      1 Linear |R| = [32m3.859309e-05[39m
+      2 Linear |R| = [32m1.295841e-07[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 1 Nonlinear |R| = [32m2.652677e-04[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m2.652677e-04[39m
+      1 Linear |R| = [32m1.927130e-07[39m
+      2 Linear |R| = [32m7.048587e-10[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+ 2 Nonlinear |R| = [32m1.123685e-08[39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m
+      0 Linear |R| = [32m1.123685e-08[39m
+      1 Linear |R| = [32m1.132050e-11[39m
+      2 Linear |R| = [32m9.554538e-14[39m
+ 3 Nonlinear |R| = [32m9.554815e-14[39m
+[32m Solve Converged![39m

@@ -1,0 +1,7 @@
+No PMIx server was reachable, but a PMI1/2 was detected.
+If srun is being used to launch application,  64 singletons will be started.
+Warning: unable to write derivative cache file.
+Warning: unable to write derivative cache file.
+Warning: unable to write derivative cache file.
+Warning: unable to write derivative cache file.
+Warning: unable to write derivative cache file.
