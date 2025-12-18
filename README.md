@@ -17,7 +17,7 @@ You will also find couple of executables in the path having PhaseField, SolidMec
 
 ```bash
 
-git clone https://github.com/BagchiS6/AutoPF.git
+git clone git@github.com:BagchiS6/AutoPF.git
 cd AutoPF
 pip install -e . --force-reinstall --no-deps
 ```
