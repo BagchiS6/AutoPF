@@ -42,4 +42,16 @@ autopf('path/to/moose-app', params)
 # Read results
 job_stats = read_job_stats()
 ```
-## launch your own workflow code with 
+## load relevant modules and launch your own workflow code with 
+```
+module load miniforge3 
+source activate /gpfs/wolf2/cades/mat269/world-shared/autopf_env
+module load openmpi/5.0.5 gcc/12.4.0 
+
+# replace with your workflow script
+export YOUR_PYTHON_WORKFLOW_CODE=demo_workflow.py  
+
+
+# finally launch matenseble
+matensemble-launch python $YOUR_PYTHON_WORKFLOW_CODE
+```
