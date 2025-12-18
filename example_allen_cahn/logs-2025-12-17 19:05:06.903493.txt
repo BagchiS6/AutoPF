@@ -1,0 +1,301 @@
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======1============99============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======2============98============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======3============97============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======4============96============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======5============95============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======6============94============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======7============93============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======8============92============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======9============91============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======10============90============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======11============89============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======12============88============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======13============87============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======14============86============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======15============85============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======16============84============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======17============83============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======18============82============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======19============81============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======20============80============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======21============79============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======22============78============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======23============77============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======24============76============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======25============75============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======26============74============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======27============73============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======28============72============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======29============71============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======30============70============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======31============69============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======32============68============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======33============67============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======34============66============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======35============65============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======36============64============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======37============63============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======38============62============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======39============61============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======40============60============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======41============59============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======42============58============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======43============57============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======44============56============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======45============55============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======46============54============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======47============53============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======48============52============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======49============51============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======50============50============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======51============49============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======52============48============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======53============47============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======54============46============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======55============45============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======56============44============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======57============43============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======58============42============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======59============41============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======60============40============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======61============39============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======62============38============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======63============37============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======64============36============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======65============35============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======66============34============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======67============33============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======68============32============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======69============31============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======70============30============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======71============29============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======72============28============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======73============27============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======74============26============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======75============25============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======76============24============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======77============23============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======78============22============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======79============21============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======80============20============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======81============19============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======82============18============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======83============17============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======84============16============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======85============15============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======86============14============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======87============13============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======88============12============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======89============11============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======90============10============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======91============9============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======92============8============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======93============7============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======94============6============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======95============5============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======96============4============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======97============3============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======98============2============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======99============1============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 286 2277926 ('resources----', 'free cores: ', 384, 'free gpus: ', 0)
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 323 2277926 ======COMPLETED JOBS=======RUNNING JOBS======PENDING JOBS
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 324 2277926 ======100============0============0
+matensemble.matflux 2025-12-17T19:05:57Z INFO matflux.py 194 2277926 =============EXITING WORKFLOW ENVIRONMENT====================

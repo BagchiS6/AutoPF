@@ -6,6 +6,7 @@
 #SBATCH -N 4
 #SBATCH -t 1:00:00
 
+unset SLURM_EXPORT_ENV
 ### IMPORTANT: Have to request MORE THAN 1 NODE 
 ### as matensemble reserves the root node for orchestration
 

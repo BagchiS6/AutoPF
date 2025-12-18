@@ -32,41 +32,6 @@ JIT compile failed.
 JIT compile failed.
 JIT compile failed.
 JIT compile failed.
-Warning: unable to write derivative cache file.
---------------------------------------------------------------------------
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
-The Open MPI wrapper compiler was unable to find the specified compiler
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-x86_64-conda-linux-gnu-c++ in your PATH.
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-
-
-Note that this compiler was either specified at configure time or in
-Note that this compiler was either specified at configure time or in
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
-one of several possible environment variables.
-one of several possible environment variables.
---------------------------------------------------------------------------
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-JIT compile failed.
-JIT compile failed.
---------------------------------------------------------------------------
-JIT compile failed.
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
---------------------------------------------------------------------------
-JIT compile failed.
-Warning: unable to write derivative cache file.
-Warning: unable to write derivative cache file.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -164,14 +129,6 @@ JIT compile failed.
 JIT compile failed.
 JIT compile failed.
 --------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-JIT compile failed.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 The Open MPI wrapper compiler was unable to find the specified compiler
@@ -192,36 +149,12 @@ one of several possible environment variables.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-JIT compile failed.
-JIT compile failed.
-JIT compile failed.
---------------------------------------------------------------------------
---------------------------------------------------------------------------
---------------------------------------------------------------------------
 --------------------------------------------------------------------------
 The Open MPI wrapper compiler was unable to find the specified compiler
-The Open MPI wrapper compiler was unable to find the specified compiler
-The Open MPI wrapper compiler was unable to find the specified compiler
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-x86_64-conda-linux-gnu-c++ in your PATH.
-x86_64-conda-linux-gnu-c++ in your PATH.
 x86_64-conda-linux-gnu-c++ in your PATH.
 
-
-
-
-Note that this compiler was either specified at configure time or in
-Note that this compiler was either specified at configure time or in
-Note that this compiler was either specified at configure time or in
 Note that this compiler was either specified at configure time or in
 one of several possible environment variables.
-one of several possible environment variables.
-one of several possible environment variables.
-one of several possible environment variables.
---------------------------------------------------------------------------
---------------------------------------------------------------------------
---------------------------------------------------------------------------
 --------------------------------------------------------------------------
 JIT compile failed.
 JIT compile failed.
@@ -290,4 +223,68 @@ one of several possible environment variables.
 JIT compile failed.
 JIT compile failed.
 JIT compile failed.
+JIT compile failed.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+
+Note that this compiler was either specified at configure time or in
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+one of several possible environment variables.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+
+Note that this compiler was either specified at configure time or in
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+one of several possible environment variables.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+JIT compile failed.
+JIT compile failed.
+JIT compile failed.
+JIT compile failed.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+
+Note that this compiler was either specified at configure time or in
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+one of several possible environment variables.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+JIT compile failed.
+JIT compile failed.
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+--------------------------------------------------------------------------
+JIT compile failed.
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+--------------------------------------------------------------------------
 JIT compile failed.

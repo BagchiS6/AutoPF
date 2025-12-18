@@ -1,54 +1,6 @@
 No PMIx server was reachable, but a PMI1/2 was detected.
 If srun is being used to launch application,  4 singletons will be started.
 --------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
---------------------------------------------------------------------------
-JIT compile failed.
---------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
---------------------------------------------------------------------------
-JIT compile failed.
---------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
---------------------------------------------------------------------------
-JIT compile failed.
---------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
---------------------------------------------------------------------------
-JIT compile failed.
---------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
---------------------------------------------------------------------------
-JIT compile failed.
---------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
---------------------------------------------------------------------------
-JIT compile failed.
---------------------------------------------------------------------------
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 The Open MPI wrapper compiler was unable to find the specified compiler
@@ -74,36 +26,18 @@ JIT compile failed.
 JIT compile failed.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
---------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
 The Open MPI wrapper compiler was unable to find the specified compiler
 The Open MPI wrapper compiler was unable to find the specified compiler
 x86_64-conda-linux-gnu-c++ in your PATH.
 x86_64-conda-linux-gnu-c++ in your PATH.
-x86_64-conda-linux-gnu-c++ in your PATH.
-
---------------------------------------------------------------------------
 
 
 Note that this compiler was either specified at configure time or in
-The Open MPI wrapper compiler was unable to find the specified compiler
-Note that this compiler was either specified at configure time or in
 Note that this compiler was either specified at configure time or in
 one of several possible environment variables.
-x86_64-conda-linux-gnu-c++ in your PATH.
-one of several possible environment variables.
 one of several possible environment variables.
 --------------------------------------------------------------------------
-
 --------------------------------------------------------------------------
---------------------------------------------------------------------------
-JIT compile failed.
-Note that this compiler was either specified at configure time or in
-JIT compile failed.
-JIT compile failed.
-one of several possible environment variables.
---------------------------------------------------------------------------
-JIT compile failed.
 --------------------------------------------------------------------------
 The Open MPI wrapper compiler was unable to find the specified compiler
 x86_64-conda-linux-gnu-c++ in your PATH.
@@ -112,36 +46,30 @@ Note that this compiler was either specified at configure time or in
 one of several possible environment variables.
 --------------------------------------------------------------------------
 JIT compile failed.
---------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
---------------------------------------------------------------------------
 JIT compile failed.
---------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
---------------------------------------------------------------------------
 JIT compile failed.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
 The Open MPI wrapper compiler was unable to find the specified compiler
 The Open MPI wrapper compiler was unable to find the specified compiler
 x86_64-conda-linux-gnu-c++ in your PATH.
 x86_64-conda-linux-gnu-c++ in your PATH.
+x86_64-conda-linux-gnu-c++ in your PATH.
+
 
 
 Note that this compiler was either specified at configure time or in
 Note that this compiler was either specified at configure time or in
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
 one of several possible environment variables.
 one of several possible environment variables.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
+--------------------------------------------------------------------------
+JIT compile failed.
 JIT compile failed.
 JIT compile failed.
 --------------------------------------------------------------------------
@@ -151,6 +79,22 @@ x86_64-conda-linux-gnu-c++ in your PATH.
 Note that this compiler was either specified at configure time or in
 one of several possible environment variables.
 --------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+The Open MPI wrapper compiler was unable to find the specified compiler
+JIT compile failed.
+x86_64-conda-linux-gnu-c++ in your PATH.
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+
+Note that this compiler was either specified at configure time or in
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+one of several possible environment variables.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+JIT compile failed.
 JIT compile failed.
 --------------------------------------------------------------------------
 The Open MPI wrapper compiler was unable to find the specified compiler
@@ -195,38 +139,6 @@ JIT compile failed.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
---------------------------------------------------------------------------
-The Open MPI wrapper compiler was unable to find the specified compiler
-The Open MPI wrapper compiler was unable to find the specified compiler
-The Open MPI wrapper compiler was unable to find the specified compiler
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
-x86_64-conda-linux-gnu-c++ in your PATH.
-x86_64-conda-linux-gnu-c++ in your PATH.
-x86_64-conda-linux-gnu-c++ in your PATH.
-
-
-
-
-Note that this compiler was either specified at configure time or in
-Note that this compiler was either specified at configure time or in
-Note that this compiler was either specified at configure time or in
-Note that this compiler was either specified at configure time or in
-one of several possible environment variables.
-one of several possible environment variables.
-one of several possible environment variables.
-one of several possible environment variables.
---------------------------------------------------------------------------
---------------------------------------------------------------------------
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-JIT compile failed.
-JIT compile failed.
-JIT compile failed.
-JIT compile failed.
---------------------------------------------------------------------------
---------------------------------------------------------------------------
---------------------------------------------------------------------------
 The Open MPI wrapper compiler was unable to find the specified compiler
 The Open MPI wrapper compiler was unable to find the specified compiler
 The Open MPI wrapper compiler was unable to find the specified compiler
@@ -249,6 +161,78 @@ JIT compile failed.
 JIT compile failed.
 JIT compile failed.
 --------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+--------------------------------------------------------------------------
+JIT compile failed.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+The Open MPI wrapper compiler was unable to find the specified compiler
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+x86_64-conda-linux-gnu-c++ in your PATH.
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+
+
+Note that this compiler was either specified at configure time or in
+Note that this compiler was either specified at configure time or in
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+one of several possible environment variables.
+one of several possible environment variables.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+JIT compile failed.
+JIT compile failed.
+JIT compile failed.
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+--------------------------------------------------------------------------
+JIT compile failed.
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+--------------------------------------------------------------------------
+
+The Open MPI wrapper compiler was unable to find the specified compiler
+Note that this compiler was either specified at configure time or in
+x86_64-conda-linux-gnu-c++ in your PATH.
+one of several possible environment variables.
+
+--------------------------------------------------------------------------
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+--------------------------------------------------------------------------
+JIT compile failed.
+--------------------------------------------------------------------------
+JIT compile failed.
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+--------------------------------------------------------------------------
+JIT compile failed.
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+--------------------------------------------------------------------------
+JIT compile failed.
+--------------------------------------------------------------------------
 --------------------------------------------------------------------------
 The Open MPI wrapper compiler was unable to find the specified compiler
 The Open MPI wrapper compiler was unable to find the specified compiler
@@ -263,22 +247,38 @@ one of several possible environment variables.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 JIT compile failed.
-JIT compile failed.
---------------------------------------------------------------------------
 --------------------------------------------------------------------------
 The Open MPI wrapper compiler was unable to find the specified compiler
-The Open MPI wrapper compiler was unable to find the specified compiler
-x86_64-conda-linux-gnu-c++ in your PATH.
 x86_64-conda-linux-gnu-c++ in your PATH.
 
-
-Note that this compiler was either specified at configure time or in
 Note that this compiler was either specified at configure time or in
 one of several possible environment variables.
-one of several possible environment variables.
---------------------------------------------------------------------------
 --------------------------------------------------------------------------
 JIT compile failed.
+JIT compile failed.
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+--------------------------------------------------------------------------
+JIT compile failed.
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+--------------------------------------------------------------------------
+JIT compile failed.
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-c++ in your PATH.
+
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+--------------------------------------------------------------------------
 JIT compile failed.
 --------------------------------------------------------------------------
 The Open MPI wrapper compiler was unable to find the specified compiler

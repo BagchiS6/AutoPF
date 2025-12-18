@@ -34,10 +34,10 @@ SLEPc Version:           3.22.1
 SLEPc Version:           3.22.1
 SLEPc Version:           3.22.1
 SLEPc Version:           3.22.1
-Current Time:            Wed Dec 17 18:55:56 2025
-Current Time:            Wed Dec 17 18:55:56 2025
-Current Time:            Wed Dec 17 18:55:56 2025
-Current Time:            Wed Dec 17 18:55:56 2025
+Current Time:            Wed Dec 17 19:05:10 2025
+Current Time:            Wed Dec 17 19:05:10 2025
+Current Time:            Wed Dec 17 19:05:10 2025
+Current Time:            Wed Dec 17 19:05:10 2025
 Executable Timestamp:    Wed Dec 17 14:56:56 2025
 Executable Timestamp:    Wed Dec 17 14:56:56 2025
 Executable Timestamp:    Wed Dec 17 14:56:56 2025
@@ -270,75 +270,75 @@ Time Step 1, time = 0.5, dt = 0.5
 
 Time Step 1, time = 0.5, dt = 0.5
 
+Time Step 2, time = 1, dt = 0.5
 
 
+ 0 Nonlinear |R| = [32m3.546473e-01[39m
  0 Nonlinear |R| = [32m2.551866e-01[39m
 Time Step 2, time = 1, dt = 0.5
 Time Step 2, time = 1, dt = 0.5
-Time Step 2, time = 1, dt = 0.5
+      0 Linear |R| = [32m3.546473e-01[39m
       0 Linear |R| = [32m2.551866e-01[39m
  0 Nonlinear |R| = [32m3.546473e-01[39m
  0 Nonlinear |R| = [32m3.546473e-01[39m
- 0 Nonlinear |R| = [32m3.546473e-01[39m
+      1 Linear |R| = [32m6.377386e-03[39m
       1 Linear |R| = [32m4.194358e-03[39m
       0 Linear |R| = [32m3.546473e-01[39m
       0 Linear |R| = [32m3.546473e-01[39m
-      0 Linear |R| = [32m3.546473e-01[39m
+      2 Linear |R| = [32m2.280878e-04[39m
       2 Linear |R| = [32m1.237521e-04[39m
       1 Linear |R| = [32m6.377386e-03[39m
       1 Linear |R| = [32m6.377386e-03[39m
-      1 Linear |R| = [32m6.377386e-03[39m
+      3 Linear |R| = [32m7.507732e-07[39m
       3 Linear |R| = [32m6.819166e-07[39m
       2 Linear |R| = [32m2.280878e-04[39m
       2 Linear |R| = [32m2.280878e-04[39m
-      2 Linear |R| = [32m2.280878e-04[39m
+ 1 Nonlinear |R| = [32m1.881263e-03[39m
  1 Nonlinear |R| = [32m2.088034e-03[39m
       3 Linear |R| = [32m7.507732e-07[39m
       3 Linear |R| = [32m7.507732e-07[39m
-      3 Linear |R| = [32m7.507732e-07[39m
+      0 Linear |R| = [32m1.881263e-03[39m
       0 Linear |R| = [32m2.088034e-03[39m
  1 Nonlinear |R| = [32m1.881263e-03[39m
  1 Nonlinear |R| = [32m1.881263e-03[39m
- 1 Nonlinear |R| = [32m1.881263e-03[39m
+      1 Linear |R| = [32m3.575537e-05[39m
       1 Linear |R| = [32m3.643863e-05[39m
       0 Linear |R| = [32m1.881263e-03[39m
       0 Linear |R| = [32m1.881263e-03[39m
-      0 Linear |R| = [32m1.881263e-03[39m
+      2 Linear |R| = [32m1.113260e-06[39m
       2 Linear |R| = [32m9.658649e-07[39m
       1 Linear |R| = [32m3.575537e-05[39m
       1 Linear |R| = [32m3.575537e-05[39m
-      1 Linear |R| = [32m3.575537e-05[39m
+      3 Linear |R| = [32m2.591648e-09[39m
       3 Linear |R| = [32m4.227361e-09[39m
       2 Linear |R| = [32m1.113260e-06[39m
       2 Linear |R| = [32m1.113260e-06[39m
-      2 Linear |R| = [32m1.113260e-06[39m
+ 2 Nonlinear |R| = [32m7.372397e-08[39m
  2 Nonlinear |R| = [32m1.891744e-07[39m
       3 Linear |R| = [32m2.591648e-09[39m
       3 Linear |R| = [32m2.591648e-09[39m
-      3 Linear |R| = [32m2.591648e-09[39m
+      0 Linear |R| = [32m7.372397e-08[39m
       0 Linear |R| = [32m1.891744e-07[39m
  2 Nonlinear |R| = [32m7.372397e-08[39m
  2 Nonlinear |R| = [32m7.372397e-08[39m
- 2 Nonlinear |R| = [32m7.372397e-08[39m
+      1 Linear |R| = [32m1.443626e-09[39m
       1 Linear |R| = [32m3.401431e-09[39m
       0 Linear |R| = [32m7.372397e-08[39m
       0 Linear |R| = [32m7.372397e-08[39m
-      0 Linear |R| = [32m7.372397e-08[39m
+      2 Linear |R| = [32m4.198322e-11[39m
       2 Linear |R| = [32m8.998805e-11[39m
       1 Linear |R| = [32m1.443626e-09[39m
       1 Linear |R| = [32m1.443626e-09[39m
-      1 Linear |R| = [32m1.443626e-09[39m
+      3 Linear |R| = [32m1.091561e-13[39m
       3 Linear |R| = [32m3.856910e-13[39m
       2 Linear |R| = [32m4.198322e-11[39m
       2 Linear |R| = [32m4.198322e-11[39m
-      2 Linear |R| = [32m4.198322e-11[39m
+ 3 Nonlinear |R| = [32m1.090557e-13[39m
       3 Linear |R| = [32m1.091561e-13[39m
       3 Linear |R| = [32m1.091561e-13[39m
-      3 Linear |R| = [32m1.091561e-13[39m
- 3 Nonlinear |R| = [32m1.090557e-13[39m
- 3 Nonlinear |R| = [32m1.090557e-13[39m
- 3 Nonlinear |R| = [32m1.090557e-13[39m
 [32m Solve Converged![39m
+ 3 Nonlinear |R| = [32m1.090557e-13[39m
+ 3 Nonlinear |R| = [32m1.090557e-13[39m
 [32m Solve Converged![39m
 [32m Solve Converged![39m
  3 Nonlinear |R| = [32m3.857925e-13[39m
