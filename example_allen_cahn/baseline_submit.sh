@@ -10,8 +10,9 @@ unset SLURM_EXPORT_ENV
 ### IMPORTANT: Have to request MORE THAN 1 NODE 
 ### as matensemble reserves the root node for orchestration
 
-module load miniforge3 openmpi/5.0.5 gcc/12.4.0 
+module load miniforge3 
 source activate /gpfs/wolf2/cades/mat269/world-shared/autopf_env
+module load openmpi/5.0.5 gcc/12.4.0 
 
 # replace with your workflow script
 export YOUR_PYTHON_WORKFLOW_CODE=demo_workflow.py  
