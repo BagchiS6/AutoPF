@@ -4,7 +4,7 @@ Automating High-throughput Phase Field simulations using MOOSE and MatEnsemble
 
 ## Getting Started
 
-This is currently only for use in `CADES/Baseline`, where the MatEnsemble is already setup with compatible modules to run MOOSE high-throughput
+This is currently only for use in `CADES/Baseline` along with specifc conda environment `/gpfs/wolf2/cades/mat269/world-shared/autopf_env`, where the MatEnsemble is already setup with compatible modules to run MOOSE high-throughput
 c.f. `example_allen_cahn` directory for a demo to automate a simple Allen-Cahn model for a set of mobility and interfacial energy parameters. The demo is able to run high-throughput converged Allen-Cahn for a set of 100 paramter combinations for small to large moose jobs. 
 
 You need to make sure that your MOOSE-app is compiled against `Openmpi/5.0.5` as it will not run in `CADES/Baseline` otherwise and also wont be compaitble with MatEnsemble. 
