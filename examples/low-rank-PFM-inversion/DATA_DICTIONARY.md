@@ -32,15 +32,15 @@ Important files:
 The baseline scalar model solves for the gradient-energy coefficients
 `g11`, `g12`, and `g44` while leaving hidden-physics controls off.
 
-## POD/SVD and GP surrogate
+## POD and GP surrogate
 
 Location: `data/surrogate_gp_pod/`
 
-The condition-aware surrogate uses low-rank POD/SVD compression of simulated
+The condition-aware surrogate uses low-rank POD compression of simulated
 surface displacement fields. The learned map is:
 
 ```text
-[g11, g12, g44, V, tau] -> retained SVD coefficients -> reconstructed surface u_z
+[g11, g12, g44, V, tau] -> retained POD coefficients -> reconstructed surface u_z
 ```
 
 Important files:
