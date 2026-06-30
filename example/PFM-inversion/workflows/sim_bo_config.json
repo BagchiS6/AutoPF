@@ -1,0 +1,294 @@
+{
+  "n_rounds": 12,
+  "batch_size": 3,
+  "num_candidate_samples": 8192,
+  "random_seed": 314159,
+  "num_cores": 64,
+  "loss": {
+    "surface_uz_weight": 1.0,
+    "surface_uz_orientation": "transpose_sim",
+    "free_energy_weight": 0.0,
+    "free_energy_mode": "diagnostic",
+    "free_energy_total_columns": [
+      "Fb",
+      "Fw",
+      "Fela",
+      "Fc",
+      "Fele"
+    ]
+  },
+  "executable": "/global/cfs/cdirs/m5014/PhaseField/MOOSE/projects/ferret/ferret-opt",
+  "base_input": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/BTO_DW.i",
+  "postprocess_script": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/plot_exodus_fields.py",
+  "parameter_space": {
+    "g11": {
+      "lower": 0.3,
+      "upper": 1.0
+    },
+    "g12": {
+      "lower": -0.1,
+      "upper": -0.001
+    },
+    "g44": {
+      "lower": 0.001,
+      "upper": 0.1
+    }
+  },
+  "train_refs": [
+    {
+      "key": "voltage_-4.2V_pulsewidth_0.6200000000000001s",
+      "tip_voltage": 4.2,
+      "pulse_end": 0.6200000000000001,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.6200000000000001s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.6200000000000001s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-4.2V_pulsewidth_0.05s",
+      "tip_voltage": 4.2,
+      "pulse_end": 0.05,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.05s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.05s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-5.4V_pulsewidth_0.24s",
+      "tip_voltage": 5.4,
+      "pulse_end": 0.24,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.24s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.24s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-5.4V_pulsewidth_0.81s",
+      "tip_voltage": 5.4,
+      "pulse_end": 0.81,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.81s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.81s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-6.6V_pulsewidth_1.0s",
+      "tip_voltage": 6.6,
+      "pulse_end": 1.0,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_1.0s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_1.0s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-4.2V_pulsewidth_0.81s",
+      "tip_voltage": 4.2,
+      "pulse_end": 0.81,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.81s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.81s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-4.2V_pulsewidth_0.24s",
+      "tip_voltage": 4.2,
+      "pulse_end": 0.24,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.24s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.24s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-3.0V_pulsewidth_1.0s",
+      "tip_voltage": 3.0,
+      "pulse_end": 1.0,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_1.0s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_1.0s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-7.8V_pulsewidth_0.24s",
+      "tip_voltage": 7.8,
+      "pulse_end": 0.24,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.24s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.24s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-9.0V_pulsewidth_0.05s",
+      "tip_voltage": 9.0,
+      "pulse_end": 0.05,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_0.05s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_0.05s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-6.6V_pulsewidth_0.6200000000000001s",
+      "tip_voltage": 6.6,
+      "pulse_end": 0.6200000000000001,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_0.6200000000000001s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_0.6200000000000001s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-9.0V_pulsewidth_0.81s",
+      "tip_voltage": 9.0,
+      "pulse_end": 0.81,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_0.81s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_0.81s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-7.8V_pulsewidth_0.05s",
+      "tip_voltage": 7.8,
+      "pulse_end": 0.05,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.05s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.05s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-6.6V_pulsewidth_0.24s",
+      "tip_voltage": 6.6,
+      "pulse_end": 0.24,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_0.24s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_0.24s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-9.0V_pulsewidth_1.0s",
+      "tip_voltage": 9.0,
+      "pulse_end": 1.0,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_1.0s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_1.0s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-5.4V_pulsewidth_0.43s",
+      "tip_voltage": 5.4,
+      "pulse_end": 0.43,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.43s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.43s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-3.0V_pulsewidth_0.81s",
+      "tip_voltage": 3.0,
+      "pulse_end": 0.81,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.81s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.81s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-3.0V_pulsewidth_0.43s",
+      "tip_voltage": 3.0,
+      "pulse_end": 0.43,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.43s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.43s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-3.0V_pulsewidth_0.05s",
+      "tip_voltage": 3.0,
+      "pulse_end": 0.05,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.05s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.05s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-7.8V_pulsewidth_0.43s",
+      "tip_voltage": 7.8,
+      "pulse_end": 0.43,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.43s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.43s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-6.6V_pulsewidth_0.05s",
+      "tip_voltage": 6.6,
+      "pulse_end": 0.05,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_0.05s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_0.05s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-9.0V_pulsewidth_0.6200000000000001s",
+      "tip_voltage": 9.0,
+      "pulse_end": 0.6200000000000001,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_0.6200000000000001s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_0.6200000000000001s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-7.8V_pulsewidth_0.6200000000000001s",
+      "tip_voltage": 7.8,
+      "pulse_end": 0.6200000000000001,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.6200000000000001s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.6200000000000001s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-5.4V_pulsewidth_0.05s",
+      "tip_voltage": 5.4,
+      "pulse_end": 0.05,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.05s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.05s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-4.2V_pulsewidth_1.0s",
+      "tip_voltage": 4.2,
+      "pulse_end": 1.0,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_1.0s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_1.0s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-3.0V_pulsewidth_0.24s",
+      "tip_voltage": 3.0,
+      "pulse_end": 0.24,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.24s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.24s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-7.8V_pulsewidth_0.81s",
+      "tip_voltage": 7.8,
+      "pulse_end": 0.81,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.81s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.81s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-6.6V_pulsewidth_0.43s",
+      "tip_voltage": 6.6,
+      "pulse_end": 0.43,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_0.43s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_0.43s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-5.4V_pulsewidth_0.6200000000000001s",
+      "tip_voltage": 5.4,
+      "pulse_end": 0.6200000000000001,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.6200000000000001s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.6200000000000001s_polar_z.txt"
+    }
+  ],
+  "holdout_refs": [
+    {
+      "key": "voltage_-3.0V_pulsewidth_0.6200000000000001s",
+      "tip_voltage": 3.0,
+      "pulse_end": 0.6200000000000001,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.6200000000000001s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.6200000000000001s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-4.2V_pulsewidth_0.43s",
+      "tip_voltage": 4.2,
+      "pulse_end": 0.43,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.43s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.43s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-5.4V_pulsewidth_1.0s",
+      "tip_voltage": 5.4,
+      "pulse_end": 1.0,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_1.0s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_1.0s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-6.6V_pulsewidth_0.81s",
+      "tip_voltage": 6.6,
+      "pulse_end": 0.81,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_0.81s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_0.81s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-7.8V_pulsewidth_1.0s",
+      "tip_voltage": 7.8,
+      "pulse_end": 1.0,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_1.0s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_1.0s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-9.0V_pulsewidth_0.24s",
+      "tip_voltage": 9.0,
+      "pulse_end": 0.24,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_0.24s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_0.24s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-9.0V_pulsewidth_0.43s",
+      "tip_voltage": 9.0,
+      "pulse_end": 0.43,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_0.43s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_0.43s_polar_z.txt"
+    }
+  ],
+  "campaign_note": "Bulk-BTO-centered gradient campaign inside the original trained parameter box."
+}

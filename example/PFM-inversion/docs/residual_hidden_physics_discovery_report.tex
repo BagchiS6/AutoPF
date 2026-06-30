@@ -1,0 +1,391 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\title{Residual-Guided Hidden-Physics Discovery for PFM-Constrained BTO Phase-Field Simulations}
+\author{sim\_bo / AutoPF--MatEnsemble campaign summary}
+\date{June 22, 2026}
+
+\newcommand{\vect}[1]{\bm{#1}}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\Pz}{P_z}
+\newcommand{\Uz}{u_z}
+\newcommand{\Uzc}[2]{u_{z,#2}^{#1}}
+
+\begin{document}
+\maketitle
+
+\section{Purpose and Data Products}
+
+The latest hidden-physics campaign was designed to answer a focused question:
+after fixing the gradient coefficients to the dense-posterior, physically
+tangible values
+\[
+  g_{11}=0.5,\qquad g_{12}=-0.06,\qquad g_{44}=0.02,
+\]
+what additional low-dimensional physics terms most consistently reduce the
+PFM surface-displacement residuals?
+
+The current best model is a co-active surface-screening field plus a localized
+anisotropic, shear-like eigenstrain component.  The final full-holdout round is
+\texttt{round\_anisotropic\_holdout\_full\_000}.  Its analysis files are under
+\[
+\texttt{sim\_bo\_bto\_physical\_bounds/anisotropic\_hidden\_analysis}.
+\]
+The MOOSE input used for the hidden-physics model is
+\texttt{BTO\_DW\_anisotropic\_hidden\_physics\_zdecay\_ic.i}; the campaign
+manifests were produced by
+\texttt{build\_anisotropic\_hidden\_physics\_manifest.py} and
+\texttt{build\_anisotropic\_holdout\_validation\_manifest.py}.
+
+\section{Observation Model and Residual Objective}
+
+For each experimental bias--pulse condition
+\[
+  c=(V,\tau),
+\]
+the experiment provides a surface PFM-derived observable, denoted
+\(\Uzc{\mathrm{exp}}{c}(x,y)\).  The phase-field simulation gives a final
+surface displacement \(\Uzc{\mathrm{sim}}{c}(x,y;\theta)\), where \(\theta\)
+collects the gradient coefficients and hidden-physics parameters.
+
+Before evaluating the objective, the simulated surface field is transposed into
+the experimental orientation and resampled to the experimental grid.  Both
+fields are then z-normalized condition-by-condition:
+\[
+  \widehat{u}_{z,c}^{\,\mathrm{sim}}
+  =
+  \frac{\Uzc{\mathrm{sim}}{c}-\langle \Uzc{\mathrm{sim}}{c}\rangle}
+       {\mathrm{std}(\Uzc{\mathrm{sim}}{c})},
+  \qquad
+  \widehat{u}_{z,c}^{\,\mathrm{exp}}
+  =
+  \frac{\Uzc{\mathrm{exp}}{c}-\langle \Uzc{\mathrm{exp}}{c}\rangle}
+       {\mathrm{std}(\Uzc{\mathrm{exp}}{c})} .
+\]
+The residual map is
+\[
+  R_c(x,y;\theta)
+  =
+  \widehat{u}_{z,c}^{\,\mathrm{sim}}(x,y;\theta)
+  -
+  \widehat{u}_{z,c}^{\,\mathrm{exp}}(x,y).
+\]
+The objective uses the center crop, excluding the outer 10\% edge band in each
+image dimension.  If \(M(x,y)\in\{0,1\}\) is the crop mask, the normalized MSE is
+\[
+  \mathcal{L}(\theta)
+  =
+  \frac{1}{|\mathcal{C}|}
+  \sum_{c\in\mathcal{C}}
+  \frac{\sum_{x,y} M(x,y)\,R_c(x,y;\theta)^2}
+       {\sum_{x,y} M(x,y)\,
+       \left(\widehat{u}_{z,c}^{\,\mathrm{exp}}(x,y)\right)^2}.
+\]
+The edge masking was important because the largest residuals in the baseline
+fits were often dominated by lateral/edge artifacts rather than by the domain
+interior that should drive hidden-physics inference.
+
+\section{Baseline Physics Model}
+
+The core phase-field model is an LGD electro-elasto-static model with
+polarization \(\vect{P}=(P_x,P_y,P_z)\), displacement \(\vect{u}\), and electric
+potential \(\phi\).  Schematically, the relaxed state minimizes or evolves down
+the functional
+\[
+  \mathcal{F}_0
+  =
+  \int_{\Omega}
+  \left[
+    f_{\mathrm{Landau}}(\vect{P})
+    + f_{\mathrm{grad}}(\nabla \vect{P})
+    + f_{\mathrm{elec}}(\vect{P},\phi)
+    + f_{\mathrm{el}}(\vect{\eps},\vect{P})
+  \right]\,\dd\Omega .
+\]
+The gradient term is controlled by the three cubic coefficients
+\((g_{11},g_{12},g_{44})\).  In compact tensor notation,
+\[
+  f_{\mathrm{grad}}
+  =
+  \frac{1}{2}G_{ijkl}
+  \frac{\partial P_i}{\partial x_j}
+  \frac{\partial P_k}{\partial x_l},
+\]
+where cubic symmetry reduces \(G_{ijkl}\) to the three fitted coefficients.
+
+Mechanical equilibrium is solved with small strain
+\[
+  \eps_{ij}
+  =
+  \frac{1}{2}\left(\frac{\partial u_i}{\partial x_j}
+  + \frac{\partial u_j}{\partial x_i}\right),
+\]
+and the elastic energy is
+\[
+  f_{\mathrm{el}}
+  =
+  \frac{1}{2}C_{ijkl}
+  \eps^{e}_{ij}\eps^{e}_{kl}.
+\]
+The elastic strain includes electrostrictive and hidden eigenstrain components:
+\[
+  \eps^{e}_{ij}
+  =
+  \eps_{ij}
+  - \eps^{Q}_{ij}(\vect{P})
+  - \eps^{\mathrm{iso}}_{ij}(\vect{x})
+  - \eps^{\mathrm{aniso}}_{ij}(\vect{x}),
+\]
+with electrostriction represented schematically as
+\[
+  \eps^{Q}_{ij} = Q_{ijkl}P_kP_l .
+\]
+The hidden-off baseline has
+\[
+  \eps^{\mathrm{iso}}_{ij}=0,\qquad
+  \eps^{\mathrm{aniso}}_{ij}=0,\qquad
+  \lambda_{\mathrm{scr}}=0,\qquad
+  h_{\mathrm{flexo}}=0 .
+\]
+
+\section{Hidden-Physics Parameterizations}
+
+All hidden-physics candidates were deliberately low-dimensional.  The goal was
+not to fit a pixelwise field by BO, but to test physically interpretable
+families that could explain structured residuals.
+
+\subsection{Surface Screening / Depolarization Proxy}
+
+The surface-screening field is represented by a localized Gaussian envelope:
+\[
+  \lambda_{\mathrm{scr}}(\vect{x})
+  =
+  \lambda_0
+  +
+  A_{\mathrm{scr}}
+  \exp\left[
+    -\frac{(x-x_0)^2+(y-y_0)^2}{2\sigma_{xy,\mathrm{scr}}^2}
+  \right]
+  \exp\left[
+    -\frac{(z-z_0)^2}{2\sigma_{z,\mathrm{scr}}^2}
+  \right].
+\]
+In the latest holdout model,
+\[
+  A_{\mathrm{scr}}=0.08,\qquad
+  \sigma_{xy,\mathrm{scr}}=80~\mathrm{nm},\qquad
+  \sigma_{z,\mathrm{scr}}=25~\mathrm{nm}.
+\]
+In the MOOSE input this appears as \texttt{spatial\_screen\_lambda} and enters
+the \(P_z\) equation through \texttt{screening\_depol\_z}.  The residual-level
+implementation is proportional to
+\[
+  R^{\mathrm{scr}}_{P_z}
+  \propto
+  -\frac{1}{2\epsilon_b}
+  \lambda_{\mathrm{scr}}(\vect{x})\,\langle P_z\rangle,
+\]
+with \(\epsilon_b=\texttt{screen\_permitivitty}=0.08854187\).  This term should
+be read as an effective depolarization/screening proxy rather than a complete
+microscopic charge-transport model.
+
+\subsection{Isotropic Vegard-Like Eigenstrain}
+
+The isotropic Vegard-like field was included as
+\[
+  \eps^{\mathrm{iso}}_{ij}(\vect{x})
+  =
+  \eta_{\mathrm{iso}}(\vect{x})\delta_{ij},
+\]
+where
+\[
+  \eta_{\mathrm{iso}}(\vect{x})
+  =
+  \eta_0
+  +
+  A_{\mathrm{iso}}
+  \exp\left[
+    -\frac{(x-x_0)^2+(y-y_0)^2}{2\sigma_{xy,\mathrm{iso}}^2}
+  \right]
+  \exp\left[
+    -\frac{(z-z_0)^2}{2\sigma_{z,\mathrm{iso}}^2}
+  \right].
+\]
+In the final anisotropic holdout winner the isotropic Vegard amplitudes are
+zero.  Thus the final interpretation is not a uniform volumetric vacancy
+expansion/contraction; it is a more directional elastic signature.
+
+\subsection{Low-Rank Anisotropic Eigenstrain}
+
+The anisotropic hidden field is a rank-restricted symmetric eigenstrain tensor:
+\[
+  \eps^{\mathrm{aniso}}(\vect{x})
+  =
+  \Phi_A(\vect{x})\,\vect{A},
+\]
+where
+\[
+  \Phi_A(\vect{x})
+  =
+  \exp\left[
+    -\frac{(x-x_0)^2+(y-y_0)^2}{2\sigma_{xy,A}^2}
+  \right]
+  \exp\left[
+    -\frac{(z-z_0)^2}{2\sigma_{z,A}^2}
+  \right],
+\]
+and
+\[
+  \vect{A}
+  =
+  \begin{pmatrix}
+    A_{xx} & A_{xy} & A_{xz}\\
+    A_{xy} & A_{yy} & A_{yz}\\
+    A_{xz} & A_{yz} & A_{zz}
+  \end{pmatrix}.
+\]
+The MOOSE implementation uses separate \texttt{ComputeEigenstrain} blocks for
+\(xx,yy,zz,xy,xz,yz\) and adds all of them to
+\texttt{eigenstrain\_names} in the small-strain material.
+
+The best final candidate has only the \(yz\) component active:
+\[
+  A_{yz}=7.5\times 10^{-4},
+  \qquad
+  A_{xx}=A_{yy}=A_{zz}=A_{xy}=A_{xz}=0,
+\]
+with
+\[
+  \sigma_{xy,A}=120~\mathrm{nm},\qquad
+  \sigma_{z,A}=35~\mathrm{nm}.
+\]
+This is a localized shear-like eigenstrain.  A physically cautious
+interpretation is that the residual field is consistent with asymmetric
+defect/dislocation-mediated elastic accommodation, rather than with a purely
+isotropic vacancy Vegard strain.
+
+\subsection{Phenomenological Flexo Proxy}
+
+A full flexoelectric model would include Lifshitz-type couplings between
+polarization gradients and strain gradients, for example terms of the form
+\[
+  f_{\mathrm{flexo}}
+  \sim
+  \mu_{ijkl}
+  \left(
+    P_i\frac{\partial \eps_{jk}}{\partial x_l}
+    -
+    \eps_{jk}\frac{\partial P_i}{\partial x_l}
+  \right),
+\]
+which generally requires additional carefully verified kernels/materials.
+The present campaign did not implement that rigorous tensorial flexoelectric
+energy.  Instead, it tested a phenomenological internal-field proxy acting on
+\(P_z\):
+\[
+  h_{\mathrm{flexo}}(\vect{x})
+  =
+  \left[
+    a_0 + a_1\frac{z-z_0}{\sigma_{z,f}}
+  \right]
+  \exp\left[
+    -\frac{(x-x_0)^2+(y-y_0)^2}{2\sigma_{xy,f}^2}
+  \right]
+  \exp\left[
+    -\frac{(z-z_0)^2}{2\sigma_{z,f}^2}
+  \right].
+\]
+Equivalently, one may view the proxy as an energy contribution
+\[
+  \mathcal{F}_{\mathrm{proxy}}
+  =
+  -\int_{\Omega} h_{\mathrm{flexo}}(\vect{x})P_z(\vect{x})\,\dd\Omega ,
+\]
+whose variational derivative drives the \(P_z\) equation.  In MOOSE this is
+the \texttt{flexo\_proxy\_pz} body force with function
+\texttt{flexo\_proxy\_drive}.  The best flexo-proxy competitor used
+\[
+  a_1=-10^{-3},\qquad a_0=0,
+\]
+and reached a full-holdout nMSE of \(0.0687001\), slightly worse than the
+anisotropic shear-like eigenstrain.
+
+\section{Candidate Ranking and Quantitative Results}
+
+The full 30-condition holdout comparison is:
+\[
+\begin{array}{llll}
+\toprule
+\mathrm{rank} & \mathrm{candidate} & \mathrm{active~terms} & \mathrm{mean~nMSE}\\
+\midrule
+1 & \texttt{shear\_yz\_pos} &
+  \lambda_{\mathrm{scr}} + A_{yz}\Phi_A & 0.0660709\\
+2 & \texttt{flexo\_proxy\_grad\_neg} &
+  \lambda_{\mathrm{scr}} + h_{\mathrm{flexo}} & 0.0687001\\
+3 & \texttt{screening\_only\_refined\_control} &
+  \lambda_{\mathrm{scr}} & 0.0698688\\
+4 & \texttt{fixed\_g\_hidden\_off} &
+  \mathrm{none} & 0.0977860\\
+\bottomrule
+\end{array}
+\]
+The best anisotropic candidate reduces nMSE by
+\[
+  \frac{0.0977860-0.0660709}{0.0977860}\times 100
+  =
+  32.43\%
+\]
+relative to the hidden-off fixed-\(g\) model.  It improves all
+\(30/30\) holdout conditions relative to hidden-off, \(23/30\) relative to the
+screening-only control, and \(21/30\) relative to the flexo-proxy competitor.
+
+\section{Scientific Interpretation}
+
+The important point is not only that the residual decreases, but that the
+residual decreases after each candidate is run through the MOOSE phase-field
+solver.  Thus the optimization is physics-constrained in the practical sense:
+the learned correction must survive coupled LGD, electrostatic, and mechanical
+relaxation.  The loss does not currently include an explicit free-energy
+penalty; free energy is used diagnostically.
+
+The current best hidden physics is therefore best described as:
+\[
+  \boxed{
+    \mathrm{localized~screening}
+    +
+    \mathrm{localized~anisotropic~} \eps_{yz}^{*}
+    \mathrm{~eigenstrain}
+  }.
+\]
+This is consistent with a sample containing defects/dislocations that produce
+directional elastic accommodation near the switched/nucleated region.  It is
+not, by itself, proof of a unique microscopic defect population.  The
+anisotropic eigenstrain should be presented as an inferred effective field
+whose symmetry and localization provide a physics cue for follow-up
+experiments or higher-fidelity defect models.
+
+\section{Regenerated Figure Files}
+
+The latest manuscript figures were regenerated by
+\texttt{paper\_figures/make\_latest\_campaign\_fig3\_fig4\_story\_panels.py}.
+The requested copies are:
+\begin{itemize}[leftmargin=*]
+  \item \texttt{paper\_figures/needs\_regeneration\_for the\_latest\_campaign/Figure3\_hidden\_physics\_discovery.pdf}
+  \item \texttt{paper\_figures/needs\_regeneration\_for the\_latest\_campaign/fig4\_holdout\_validation\_redesigned.pdf}
+\end{itemize}
+Figure 3a now includes the hidden-off nMSE and intentionally omits error bars.
+The two holdout residual atlas panels in Figure 3 use the same center-crop
+z-normalized residual color scale,
+\[
+  R_c \in [-1.2624590595,\;1.2624590595],
+\]
+so the apparent residual reduction is visually comparable between hidden-off
+and hidden-on panels.
+
+\end{document}

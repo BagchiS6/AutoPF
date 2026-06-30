@@ -1,0 +1,303 @@
+{
+  "n_rounds": 1,
+  "batch_size": 3,
+  "num_candidate_samples": 2048,
+  "random_seed": 314159,
+  "num_cores": 64,
+  "loss": {
+    "surface_uz_weight": 1.0,
+    "surface_uz_orientation": "transpose_sim",
+    "free_energy_weight": 0.0,
+    "free_energy_mode": "diagnostic",
+    "free_energy_total_columns": [
+      "Fb",
+      "Fw",
+      "Fela",
+      "Fc",
+      "Fele"
+    ],
+    "surface_uz_edge_crop_fraction": 0.1,
+    "surface_uz_objective_region": "center_crop"
+  },
+  "executable": "/global/cfs/cdirs/m5014/PhaseField/MOOSE/projects/ferret/ferret-opt",
+  "base_input": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/BTO_DW.i",
+  "postprocess_script": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/plot_exodus_fields.py",
+  "parameter_space": {
+    "g11": {
+      "lower": 0.3,
+      "upper": 1.0
+    },
+    "g12": {
+      "lower": -0.1,
+      "upper": -0.001
+    },
+    "g44": {
+      "lower": 0.001,
+      "upper": 0.1
+    }
+  },
+  "train_refs": [
+    {
+      "key": "voltage_-3.0V_pulsewidth_0.05s",
+      "tip_voltage": 3.0,
+      "pulse_end": 0.05,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.05s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-3.0V_pulsewidth_0.05s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-4.2V_pulsewidth_0.6200000000000001s",
+      "tip_voltage": 4.2,
+      "pulse_end": 0.6200000000000001,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.6200000000000001s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-4.2V_pulsewidth_0.6200000000000001s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-5.4V_pulsewidth_0.24s",
+      "tip_voltage": 5.4,
+      "pulse_end": 0.24,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.24s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-5.4V_pulsewidth_0.24s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-6.6V_pulsewidth_1.0s",
+      "tip_voltage": 6.6,
+      "pulse_end": 1.0,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_1.0s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-6.6V_pulsewidth_1.0s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-7.8V_pulsewidth_0.81s",
+      "tip_voltage": 7.8,
+      "pulse_end": 0.81,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.81s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-7.8V_pulsewidth_0.81s_polar_z.txt"
+    },
+    {
+      "key": "voltage_-9.0V_pulsewidth_1.0s",
+      "tip_voltage": 9.0,
+      "pulse_end": 1.0,
+      "npz_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_1.0s_uz.npz",
+      "polar_z_path": "/pscratch/sd/s/sbagchi/sim_bo/sim_bo_bto_physical_bounds/experimental/voltage_-9.0V_pulsewidth_1.0s_polar_z.txt"
+    }
+  ],
+  "holdout_refs": [],
+  "campaign_note": "Posterior-guided corrected-IC anchor campaign. Candidates combine old dense posterior minima, corrected-IC dense interpolation, physical BTO anchors, and local basin perturbations.",
+  "anchor_candidates": [
+    {
+      "name": "bulk_bto",
+      "parameters": {
+        "g11": 0.5,
+        "g12": -0.02,
+        "g44": 0.02
+      },
+      "note": "Bulk BTO gradient coefficients."
+    },
+    {
+      "name": "old_observed_best",
+      "parameters": {
+        "g11": 0.5,
+        "g12": -0.06,
+        "g44": 0.02
+      },
+      "note": "Best directly observed pre-corrected MOOSE point after transpose correction."
+    },
+    {
+      "name": "old_dense_best",
+      "parameters": {
+        "g11": 0.5166495244018734,
+        "g12": -0.09280289257131517,
+        "g44": 0.0010953652709722519
+      },
+      "note": "Old dense posterior surrogate minimum."
+    },
+    {
+      "name": "corrected_observed_best",
+      "parameters": {
+        "g11": 1.0,
+        "g12": -0.02,
+        "g44": 0.02
+      },
+      "note": "Best direct corrected-IC anchor from the sparse corrected run."
+    },
+    {
+      "name": "corrected_dense_best",
+      "parameters": {
+        "g11": 0.9981276873499154,
+        "g12": -0.025312890396453444,
+        "g44": 0.051250956883654004
+      },
+      "note": "Corrected-IC dense interpolation minimum."
+    },
+    {
+      "name": "corrected_high_g44_anchor",
+      "parameters": {
+        "g11": 0.5,
+        "g12": -0.02,
+        "g44": 0.06
+      },
+      "note": "Sparse corrected-IC high-g44 anchor, close to the corrected dense basin."
+    },
+    {
+      "name": "old_boundary_previous",
+      "parameters": {
+        "g11": 0.302703,
+        "g12": -0.001332,
+        "g44": 0.001337
+      },
+      "note": "Previous old-bounds inverse boundary candidate retained as a control."
+    },
+    {
+      "name": "high_g11_low_g44_more_g12",
+      "parameters": {
+        "g11": 1.0,
+        "g12": -0.04,
+        "g44": 0.02
+      },
+      "note": "Posterior/basin local perturbation."
+    },
+    {
+      "name": "high_g11_mid_g44",
+      "parameters": {
+        "g11": 1.0,
+        "g12": -0.02,
+        "g44": 0.06
+      },
+      "note": "Posterior/basin local perturbation."
+    },
+    {
+      "name": "high_g11_high_g44",
+      "parameters": {
+        "g11": 1.0,
+        "g12": -0.02,
+        "g44": 0.1
+      },
+      "note": "Posterior/basin local perturbation."
+    },
+    {
+      "name": "high_g11_old_g12_low_g44",
+      "parameters": {
+        "g11": 1.0,
+        "g12": -0.09,
+        "g44": 0.02
+      },
+      "note": "Posterior/basin local perturbation."
+    },
+    {
+      "name": "near_corrected_dense_relaxed",
+      "parameters": {
+        "g11": 0.9,
+        "g12": -0.03,
+        "g44": 0.05
+      },
+      "note": "Posterior/basin local perturbation."
+    },
+    {
+      "name": "near_corrected_dense_tighter_g12",
+      "parameters": {
+        "g11": 0.9,
+        "g12": -0.05,
+        "g44": 0.05
+      },
+      "note": "Posterior/basin local perturbation."
+    },
+    {
+      "name": "bulk_old_g12_low_g44",
+      "parameters": {
+        "g11": 0.5,
+        "g12": -0.09,
+        "g44": 0.005
+      },
+      "note": "Posterior/basin local perturbation."
+    },
+    {
+      "name": "mid_g11_old_dense",
+      "parameters": {
+        "g11": 0.55,
+        "g12": -0.09,
+        "g44": 0.02
+      },
+      "note": "Posterior/basin local perturbation."
+    },
+    {
+      "name": "low_g11_bulk_hidden_off",
+      "parameters": {
+        "g11": 0.3,
+        "g12": -0.02,
+        "g44": 0.02
+      },
+      "note": "Posterior/basin local perturbation."
+    },
+    {
+      "name": "corrected_dense_diverse_00",
+      "parameters": {
+        "g11": 0.9970089422538877,
+        "g12": -0.01192329840082676,
+        "g44": 0.05225108126178384
+      },
+      "note": "Diverse top-800 candidate from corrected_dense_diverse; surrogate loss=0.113634."
+    },
+    {
+      "name": "corrected_dense_diverse_01",
+      "parameters": {
+        "g11": 0.9992210086435078,
+        "g12": -0.01269535224139691,
+        "g44": 0.06768588094133884
+      },
+      "note": "Diverse top-800 candidate from corrected_dense_diverse; surrogate loss=0.113644."
+    },
+    {
+      "name": "corrected_dense_diverse_02",
+      "parameters": {
+        "g11": 0.9984695696271955,
+        "g12": -0.03034018721617758,
+        "g44": 0.041143924607895316
+      },
+      "note": "Diverse top-800 candidate from corrected_dense_diverse; surrogate loss=0.113674."
+    },
+    {
+      "name": "corrected_dense_diverse_03",
+      "parameters": {
+        "g11": 0.9942568602971733,
+        "g12": -0.031792638777755206,
+        "g44": 0.0607113902727142
+      },
+      "note": "Diverse top-800 candidate from corrected_dense_diverse; surrogate loss=0.113675."
+    },
+    {
+      "name": "corrected_dense_diverse_04",
+      "parameters": {
+        "g11": 0.9994791412726045,
+        "g12": -0.0036256289808079545,
+        "g44": 0.062360924098640684
+      },
+      "note": "Diverse top-800 candidate from corrected_dense_diverse; surrogate loss=0.113738."
+    },
+    {
+      "name": "old_dense_diverse_00",
+      "parameters": {
+        "g11": 0.46308520976454015,
+        "g12": -0.08228606088552624,
+        "g44": 0.0010658177295699716
+      },
+      "note": "Diverse top-800 candidate from old_dense_diverse; surrogate loss=0.176808."
+    },
+    {
+      "name": "old_dense_diverse_01",
+      "parameters": {
+        "g11": 0.43733458779752254,
+        "g12": -0.09918773880694062,
+        "g44": 0.0017703945003449918
+      },
+      "note": "Diverse top-800 candidate from old_dense_diverse; surrogate loss=0.176815."
+    },
+    {
+      "name": "old_dense_diverse_02",
+      "parameters": {
+        "g11": 0.5394605516456067,
+        "g12": -0.0811152160577476,
+        "g44": 0.0012109326887875796
+      },
+      "note": "Diverse top-800 candidate from old_dense_diverse; surrogate loss=0.176815."
+    }
+  ]
+}
