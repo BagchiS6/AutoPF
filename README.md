@@ -106,26 +106,23 @@ matensemble-launch python demo_workflow.py
 The workflow writes a timestamped `job_stats_*.json` file after reading the latest
 MatEnsemble restart state.
 
-## CADES/Baseline Notes
+## Featured Example: Low-Rank PFM Inversion
 
-The current production target is `CADES/Baseline`, using the shared AutoPF environment:
+`examples/low-rank-PFM-inversion/` shows AutoPF in a full inverse-modeling loop:
+MOOSE/Ferret campaigns generate surface displacement fields, POD/SVD compresses
+the field ensemble, a condition-aware GP surrogate predicts `u_z(x, y)` across
+voltage and pulse-width conditions, and active-learning proposals feed new
+simulations back into AutoPF.
 
-```bash
-module load miniforge3
-source activate /gpfs/wolf2/cades/mat269/world-shared/autopf_env
-module load openmpi/5.0.5 gcc/12.4.0
-```
+<p align="center">
+  <a href="examples/low-rank-PFM-inversion/README.md">
+    <img src="examples/low-rank-PFM-inversion/docs/Figure_2_Low-Rank_field_Inversion_Workflow.png" alt="Low-rank PFM inversion workflow" width="850">
+  </a>
+</p>
 
-For CADES/Baseline, compile your MOOSE application against `openmpi/5.0.5` so it is
-compatible with MatEnsemble in the shared environment.
-
-MatEnsemble reserves the root node for orchestration. Request more than one node in
-batch or interactive allocations.
-
-```bash
-# Example CADES launch pattern
-sbatch examples/allen-cahn/baseline_submit.sh
-```
+The example also includes a residual-guided hidden-physics study comparing
+screening, flexo-proxy, and anisotropic eigenstrain hypotheses against PFM
+holdout conditions.
 
 ## API Reference
 
@@ -156,7 +153,7 @@ Find the highest-numbered `restart_*.dat` file in a directory.
 ```text
 examples/
   allen-cahn/                 Minimal high-throughput MOOSE campaign
-  low-rank-PFM-inversion/     PFM inverse-problem and surrogate-model workflow
+  low-rank-PFM-inversion/     Low-rank PFM inverse-problem workflow
 images/
   SI_fig_autopf_matensemble_scalable_orchestration.png
 autopf/
