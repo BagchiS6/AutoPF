@@ -1,10 +1,10 @@
 # Low-Rank PFM Inversion
 
-**A field-level inverse workflow for learning phase-field model parameters from PFM-derived surface response maps.**
+**A field inversion workflow for learning phase-field model parameters from PFM-derived surface response maps.**
 
 This example shows how AutoPF can sit inside a larger scientific loop: launch
-MOOSE/Ferret phase-field campaigns, collect full-field displacement outputs,
-compress those fields with POD/SVD, train a condition-aware surrogate, and use
+MOOSE phase-field campaigns, collect full-field displacement outputs,
+compress those fields with POD (Proper Orthogonal Decomposition), train a condition-aware surrogate, and use
 that surrogate to propose the next simulations for inverse fitting.
 
 <p align="center">
