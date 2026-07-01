@@ -112,7 +112,9 @@ MatEnsemble restart state.
 MOOSE/Ferret campaigns generate surface displacement fields, POD/SVD compresses
 the field ensemble, a condition-aware GP surrogate predicts `u_z(x, y)` across
 voltage and pulse-width conditions, and active-learning proposals feed new
-simulations back into AutoPF.
+simulations back into AutoPF. The same campaign then uses residual-guided
+MOOSE rounds to refine hidden-physics controls beyond the fitted `g_ij`
+gradient coefficients.
 
 <p align="center">
   <a href="examples/low-rank-PFM-inversion/README.md">
@@ -162,7 +164,8 @@ autopf/
 
 The low-rank PFM inversion example documents a larger scientific workflow where simulated
 surface displacement fields are compressed with POD/SVD, modeled with Gaussian processes,
-and compared against PFM-derived experimental targets.
+compared against PFM-derived experimental targets, and extended through
+residual-guided hidden-physics refinement.
 
 ## Interpreting Job State
 

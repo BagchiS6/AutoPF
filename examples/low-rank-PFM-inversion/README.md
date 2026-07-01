@@ -1,33 +1,44 @@
-# Low-Rank PFM Inversion
+# Low-Rank PFM Inversion and Hidden-Physics Refinement
 
-**A field inversion workflow for learning phase-field model parameters from PFM-derived surface response maps.**
+**A field-level inverse workflow for learning phase-field model parameters and
+residual-guided hidden physics from PFM-derived surface response maps.**
 
 This example shows how AutoPF can sit inside a larger scientific loop: launch
-MOOSE phase-field campaigns, collect full-field displacement outputs,
-compress those fields with POD (Proper Orthogonal Decomposition), train a condition-aware surrogate, and use
-that surrogate to propose the next simulations for inverse fitting.
+MOOSE/Ferret phase-field campaigns, collect full-field displacement outputs,
+compress those fields with POD (Proper Orthogonal Decomposition) / SVD, train a
+condition-aware surrogate, infer gradient-energy coefficients, and then refine
+low-dimensional hidden-physics terms that explain the remaining structured
+residuals.
 
 <p align="center">
   <img src="docs/Figure_2_Low-Rank_field_Inversion_Workflow.png" alt="Low-rank field inversion workflow" width="900">
 </p>
 
-The central map learned by the workflow is:
+The first map learned by the workflow is the low-rank field surrogate:
 
 ```text
 [g11, g12, g44, voltage, pulse_width] -> POD/SVD coefficients -> surface u_z(x, y)
 ```
 
-The inverse objective compares reconstructed or newly simulated surface
-displacement fields against PFM-derived experimental targets across multiple
-voltage and pulse-width conditions.
+That stage calibrates the cubic gradient-energy coefficients. The second stage
+keeps the selected `g_ij` values fixed or tightly constrained and asks whether
+additional hidden-physics controls reduce the PFM residuals:
+
+```text
+[g11, g12, g44, hidden physics, voltage, pulse_width] -> MOOSE/Ferret fields -> residual score
+```
+
+The hidden physics controls include screening, isotropic and anisotropic eigenstrain
+proxies, spatial hidden fields, and flexo-proxy comparison terms.
 
 ## Scientific Motivation
 
 PFM measurements provide spatially resolved information about electromechanical
 response, but fitting a phase-field model directly to every pixel of every
-condition is expensive. This example reduces the problem by learning a low-rank
-representation of simulated surface fields, then fitting gradient-energy and
-hidden-physics controls against experimental field data.
+condition is expensive. This example reduces the first part of the problem by
+learning a low-rank representation of simulated surface fields. It then uses
+the residual structure from that fit to design follow-up MOOSE campaigns for
+hidden-physics refinement.
 
 The workflow is useful for:
 
@@ -35,11 +46,13 @@ The workflow is useful for:
 - comparing simulated `u_z` or `disp_z` fields with experimental PFM targets
 - proposing new MOOSE runs from a GP/POD active-learning loop
 - testing whether residual structure points to missing physics
-- evaluating hidden-physics hypotheses such as localized screening or anisotropic eigenstrain
+- refining scalar and spatial hidden-physics controls after the `g_ij` fit
+- validating hidden-physics hypotheses such as localized screening,
+  anisotropic eigenstrain, and flexo-proxy alternatives on holdout conditions
 
 ## Workflow
 
-1. Build or collect MOOSE/Ferret simulation records across parameter and
+1. Build or collect MOOSE/Ferret simulation records across `g_ij` and
    voltage/pulse conditions.
 2. Extract final surface displacement fields from the simulation outputs.
 3. Normalize, vectorize, and compress the field ensemble with POD/SVD.
@@ -47,18 +60,25 @@ The workflow is useful for:
    low-rank coefficients.
 5. Decode predicted coefficients back into full-field `u_z(x, y)` maps with
    uncertainty estimates.
-6. Score candidate parameters against the PFM targets.
-7. Run new AutoPF campaigns for selected candidates and append them to the
-   training record.
+6. Score candidate `g_ij` values against the PFM targets and select a
+   posterior-guided gradient-coefficient baseline.
+7. Analyze the residuals left by the selected `g_ij` model.
+8. Launch scalar hidden-physics anchors, spatial hidden-field pilots, and local
+   trust-region refinement rounds with AutoPF.
+9. Validate the best hidden-physics candidates on holdout voltage/pulse
+   conditions and compare against hidden-off and flexo-proxy controls.
 
 <p align="center">
   <img src="docs/Figure3_hidden_physics_discovery.png" alt="Residual-guided hidden-physics discovery" width="900">
 </p>
 
-The hidden-physics analysis asks whether residuals left by the baseline
-gradient-energy model are better explained by additional mechanisms. In the
-representative study included here, localized screening plus anisotropic
-eigenstrain reduced holdout error relative to the hidden-off baseline.
+The hidden-physics analysis is not a post-processing add-on; it is a second
+campaign stage. After the gradient coefficients are selected, residuals are
+used to build new MOOSE manifests that test scalar screening/eigenstrain,
+localized spatial fields, anisotropic eigenstrain components, and flexo-proxy
+competitors. In the representative study included here, localized screening
+plus anisotropic eigenstrain reduced holdout error relative to the hidden-off
+baseline.
 
 ## Directory Map
 
@@ -111,6 +131,17 @@ g44=<value>
 pfm_image_file=<target>
 ```
 
+Hidden-physics refinement manifests add controls such as:
+
+```text
+screen_lambda=<value>
+spatial_screen_amp=<value>
+vegard_strain=<value>
+spatial_vegard_amp=<value>
+anis_vegard_yz_amp=<value>
+flexo_proxy_amp=<value>
+```
+
 The included `perlmutter_*.sh` scripts are HPC launch templates. They contain
 site-specific paths and should be adapted before running on a new system.
 
@@ -123,9 +154,27 @@ site-specific paths and should be adapted before running on a new system.
 - `propose_condition_gp_batch.py`: proposes new candidate batches for active learning
 - `make_latest_residual_svd_analysis.py`: evaluates residual structure after fitting
 
-The condition-aware surrogate learns a map from material parameters and
+The condition-aware surrogate learns a map from gradient-energy parameters and
 experimental condition to a low-rank field representation, then reconstructs
-the full surface displacement field for scoring.
+the full surface displacement field for scoring. Hidden-physics refinement is
+handled as a follow-up MOOSE campaign driven by residual analysis, not as just
+another unconstrained surrogate fit.
+
+### Hidden-Physics Refinement
+
+The hidden-physics stage starts after a corrected-IC or posterior-guided
+`g_ij` point has been selected. The campaign pattern is:
+
+- run an anchor round and dense inverse posterior for `g11`, `g12`, and `g44`
+- analyze residual sensitivity to identify promising missing-physics families
+- test scalar hidden terms such as `screen_lambda` and `vegard_strain`
+- launch spatial pilots for localized screening and Vegard/eigenstrain fields
+- refine local hidden-field amplitudes and widths in trust-region rounds
+- compare anisotropic eigenstrain and flexo-proxy alternatives
+- validate the best candidates on held-out voltage/pulse conditions
+
+Representative final parameters and analysis products are documented in
+`DATA_DICTIONARY.md`.
 
 ## Data Products
 
@@ -137,6 +186,8 @@ artifact groups include:
 - POD/SVD preprocessing arrays and retained basis information
 - trained GPyTorch surrogate states
 - active-learning proposal JSON files
+- residual-sensitivity summaries used to seed hidden-physics refinement
+- scalar, spatial, anisotropic, and flexo-proxy hidden-physics rankings
 - hidden-physics holdout rankings and residual diagnostics
 - final anisotropic relaxation outputs and postprocessor CSV files
 
@@ -186,6 +237,16 @@ Generate an active-learning proposal batch:
 ```bash
 python surrogate_low_rank/propose_condition_gp_batch.py --help
 ```
+
+Run a staged posterior-guided hidden-physics refinement campaign:
+
+```bash
+./workflows/perlmutter_corrected_ic_posterior_guided_campaign.sh
+```
+
+That script represents the full second-stage campaign pattern: gradient
+coefficient anchor, dense posterior, residual-sensitivity analysis, scalar
+hidden terms, spatial refinement, holdout validation, and report generation.
 
 ## Reading the Figures
 

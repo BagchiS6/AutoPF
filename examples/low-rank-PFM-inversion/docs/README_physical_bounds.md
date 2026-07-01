@@ -1,7 +1,7 @@
 # Bulk-BTO Campaign
 
-This campaign is cloned from `sim_bo_larger_bounds` and keeps the active search
-inside the trained gradient-coefficient box around bulk BTO:
+This campaign is cloned from `sim_bo_larger_bounds` and keeps the first-stage
+active search inside the trained gradient-coefficient box around bulk BTO:
 
 ```text
 g11 = 0.5
@@ -48,7 +48,8 @@ For a small physical-bounds BO campaign on 4 nodes:
 
 This uses `sim_bo_config.json` with 12 rounds and batch size 3 over the full
 29-condition training set. It is a starter configuration for additional
-bulk-BTO-centered exploration.
+bulk-BTO-centered exploration. This stage searches `g11`, `g12`, and `g44`;
+it does not by itself complete the hidden-physics refinement.
 
 ## Condition-aware variational GP active cycle
 
@@ -88,3 +89,27 @@ gp_surrogate_combined/
 condition_gp_active/gp_active_000_proposal.json
 round_gp_active_000/
 ```
+
+## Residual-guided hidden-physics refinement
+
+After selecting a posterior-guided `g_ij` point, the campaign continues with a
+second-stage refinement over hidden-physics controls. This stage uses the PFM
+residual fields left by the gradient-only model to test scalar screening,
+isotropic Vegard/eigenstrain, localized spatial screening, anisotropic
+eigenstrain, and flexo-proxy comparison candidates.
+
+The staged workflow pattern is:
+
+```text
+g_ij anchor / dense posterior
+  -> residual sensitivity
+  -> scalar hidden anchors
+  -> spatial hidden-field pilots
+  -> local refinement rounds
+  -> holdout validation
+  -> hidden-physics report
+```
+
+Representative outputs are documented in the top-level `DATA_DICTIONARY.md`
+under `data/hidden_physics_analysis/` and
+`data/final_anisotropic_relaxation/`.

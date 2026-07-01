@@ -4,6 +4,11 @@ This folder contains the surrogate-learning pieces of the inverse-problem
 workflow. These scripts are separated from the MOOSE/AutoPF launch scripts so
 the reduced-order modeling step is easy to find.
 
+The surrogate stage primarily learns the field response to `g11`, `g12`, and
+`g44` across voltage/pulse conditions. The broader example then uses the
+selected `g_ij` baseline to run residual-guided hidden-physics refinement in
+MOOSE/Ferret.
+
 ## Main scripts
 
 - `train_uz_svd_surrogate.py`
@@ -34,6 +39,9 @@ the reduced-order modeling step is easy to find.
 - `make_latest_residual_svd_analysis.py`
   - Residual SVD diagnostic used to quantify low-rank residual structure after
     hidden-physics fitting.
+  - Helps determine whether remaining PFM mismatch is structured enough to
+    justify scalar, spatial, anisotropic, or flexo-proxy hidden-physics
+    candidates.
 
 ## Representative trained artifacts
 
@@ -64,6 +72,25 @@ The condition-aware surrogate learns:
 [g11, g12, g44, V, tau] -> POD/SVD coefficients -> reconstructed surface u_z
 ```
 
-The inverse problem then searches candidate `g_ij` values by comparing
+The first inverse stage searches candidate `g_ij` values by comparing
 reconstructed/simulated `u_z` fields with PFM-derived experimental targets.
 
+## Hidden-physics refinement boundary
+
+Hidden-physics refinement is downstream of the surrogate fit. It uses the best
+or posterior-guided `g_ij` point as a baseline and evaluates additional MOOSE
+campaigns with controls such as:
+
+```text
+screen_lambda
+spatial_screen_amp
+vegard_strain
+spatial_vegard_amp
+anis_vegard_*_amp
+flexo_proxy_*
+```
+
+Those runs are scored against the same PFM field targets and validated on
+holdout voltage/pulse conditions. See the top-level example `README.md` and
+`DATA_DICTIONARY.md` for the hidden-physics campaign structure and final
+anisotropic refinement parameters.

@@ -12,7 +12,8 @@ voltage_<V>V_pulsewidth_<tau>s_polar_z.txt
 
 Each file is a two-dimensional PFM-derived surface target grid for one
 bias-voltage and pulse-width condition. These grids are used as the experimental
-targets for inverse fitting and holdout validation.
+targets for both the gradient-coefficient inverse fit and the later
+hidden-physics refinement/holdout validation stages.
 
 ## Baseline inverse posterior
 
@@ -30,7 +31,10 @@ Important files:
   diagnostic plots for the scalar-gradient posterior.
 
 The baseline scalar model solves for the gradient-energy coefficients
-`g11`, `g12`, and `g44` while leaving hidden-physics controls off.
+`g11`, `g12`, and `g44` while leaving hidden-physics controls off. Its best
+posterior-guided point becomes the reference model for residual analysis. The
+hidden-physics stage should be read as a second campaign built on this fitted
+gradient baseline, not as a replacement for the `g_ij` inversion.
 
 ## POD and GP surrogate
 
@@ -77,6 +81,13 @@ code/surrogate_low_rank/
 
 Location: `data/hidden_physics_analysis/`
 
+This stage starts from the fitted gradient-energy model and asks what
+low-dimensional missing-physics controls reduce the remaining structured PFM
+surface-displacement residuals. The campaign includes residual sensitivity,
+scalar hidden anchors, spatial hidden-field pilots, trust-region refinement,
+anisotropic eigenstrain candidates, flexo-proxy comparison candidates, and
+full-condition holdout validation.
+
 Important files:
 
 - `anisotropic_hidden_analysis/anisotropic_holdout_full_000/candidate_ranking.json`:
@@ -90,14 +101,32 @@ Important files:
 - `refinement_rounds/`: scalar/spatial hidden-physics refinement rankings from
   the previous and corrected-IC guided campaigns.
 
+Representative campaign flow:
+
+```text
+best g_ij posterior point
+  -> residual sensitivity analysis
+  -> scalar hidden anchors
+  -> localized spatial hidden-field pilots
+  -> trust-region hidden-field refinement
+  -> anisotropic / flexo-proxy candidate comparison
+  -> full holdout validation
+```
+
 Hidden-physics parameters include:
 
 - `screen_lambda`: scalar depolarization/screening proxy.
 - `spatial_screen_amp`: amplitude of a localized screening field.
+- `spatial_screen_sigma_xy`, `spatial_screen_sigma_z`: lateral and depth
+  length scales for localized screening.
 - `vegard_strain`: scalar isotropic eigenstrain/Vegard proxy.
 - `spatial_vegard_amp`: localized isotropic Vegard/eigenstrain amplitude.
+- `spatial_vegard_sigma_xy`, `spatial_vegard_sigma_z`: lateral and depth
+  length scales for localized isotropic eigenstrain.
 - `anis_vegard_*_amp`: anisotropic eigenstrain amplitudes. The final selected
   candidate used `anis_vegard_yz_amp = 0.00075`.
+- `anis_vegard_sigma_xy`, `anis_vegard_sigma_z`: lateral and depth length
+  scales for the anisotropic eigenstrain field.
 - `flexo_proxy_*`: phenomenological flexoelectric-like proxy terms used as
   comparison candidates, not as a rigorous flexoelectric kernel.
 
