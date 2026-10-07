@@ -106,11 +106,14 @@ An agent may write a reviewed JSON receipt containing `objective_mode`; it can
 select only these registered policies and cannot inject code or change a
 checkpointed campaign.
 
-For the asynchronous backend, the first space-filling MOOSE wave releases the
-POD–GP. Thereafter every completion is incorporated under a file lock before a
-replacement Thompson query is emitted, while the remaining MOOSE workers stay
-active. The POD basis and GP hyperparameters are frozen after release; only the
-posterior is conditioned online.
+For the asynchronous backend, the first space-filling MOOSE wave releases a
+GPyTorch sparse variational POD–GP. Thereafter every completion is incorporated
+under a file lock before a replacement Thompson query is emitted, while the
+remaining MOOSE workers stay active. The POD basis, inducing locations, and GP
+hyperparameters are frozen after release; short warm-start updates optimize
+the variational distribution. BoTorch's reparameterized Sobol sampler draws
+one joint posterior realization over the candidate set for each Thompson
+query, preserving candidate-to-candidate GP covariance.
 
 ## Connect MOOSE/MatEnsemble
 
@@ -181,6 +184,6 @@ The batch gate refuses to run unless the application checkout is exactly
 `dd3d84a665`. It records the version banner, Git revisions, executable hash,
 and file timestamp under `$NERSC_DEPLOY_ROOT/provenance`. The requested GPU
 nodes follow NERSC's `m5014_g` charging path; MOOSE chores use 64 CPU cores per
-node and set `MPICH_GPU_SUPPORT_ENABLED=0`. The current dependency-light exact
-POD--GP remains CPU based, so the allocated A100s are not claimed as a source
-of acceleration in this profile.
+node and set `MPICH_GPU_SUPPORT_ENABLED=0`. The variational POD--GP selects
+CUDA automatically when PyTorch can see an A100; MOOSE itself remains CPU-only
+in this profile.

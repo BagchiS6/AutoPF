@@ -177,6 +177,12 @@ def production_components(
         bootstrap_size=int(strategy_config.get("bootstrap_size", 16)),
         random_seed=int(strategy_config.get("random_seed", 20261007)),
         max_modes=int(strategy_config.get("max_modes", 32)),
+        max_inducing=int(strategy_config.get("max_inducing", 128)),
+        gp_training_steps=int(strategy_config.get("gp_training_steps", 200)),
+        gp_online_steps=int(strategy_config.get("gp_online_steps", 25)),
+        gp_learning_rate=float(strategy_config.get("gp_learning_rate", 0.03)),
+        gp_device=str(strategy_config.get("gp_device", "auto")),
+        gp_dtype=str(strategy_config.get("gp_dtype", "float32")),
         stop_posterior_mass=float(strategy_config.get("stop_posterior_mass", 0.95)),
         async_evaluations_per_observation=(
             int(strategy_config["async_evaluations_per_observation"])
@@ -195,9 +201,9 @@ def production_components(
     metadata = {
         "deployment": "live-aecroscopywave-real-moose",
         "objective_mode": mode.value,
-        "surrogate": "online full-field POD--GP",
+        "surrogate": "online GPyTorch variational full-field POD--GP",
         "acquisition": (
-            "per-completion asynchronous posterior-aware Thompson sampling"
+            "per-completion asynchronous BoTorch joint-posterior Thompson sampling"
             if backend_mode == "async_ts" else "batched posterior-aware Thompson sampling"
         ),
         "proxy_acquisition": False,

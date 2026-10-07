@@ -19,8 +19,28 @@ from .schema import (
 )
 from .state import JsonStateStore
 from .objectives import ObjectiveEvaluator, ObjectiveMode, ObjectiveResult
-from .pod_gp import PODGaussianProcess
-from .production import CandidateLibrary, ProductionPODGPStrategy, resolve_objective_mode
+
+
+def __getattr__(name):
+    """Load the optional Torch production stack only when it is requested."""
+
+    if name == "PODGaussianProcess":
+        from .pod_gp import PODGaussianProcess
+
+        return PODGaussianProcess
+    if name in {"CandidateLibrary", "ProductionPODGPStrategy", "resolve_objective_mode"}:
+        from .production import (
+            CandidateLibrary,
+            ProductionPODGPStrategy,
+            resolve_objective_mode,
+        )
+
+        return {
+            "CandidateLibrary": CandidateLibrary,
+            "ProductionPODGPStrategy": ProductionPODGPStrategy,
+            "resolve_objective_mode": resolve_objective_mode,
+        }[name]
+    raise AttributeError(name)
 
 __all__ = [
     "AcquisitionBackend",

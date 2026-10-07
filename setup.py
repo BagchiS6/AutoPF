@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="autopf",
-    version="0.3.0",
+    version="0.4.0",
     description="High-throughput Phase Field simulations automation using MOOSE and MatEnsemble",
     author="Soumendu Bagchi",
     author_email="bagchis@ornl.gov",
@@ -16,7 +16,12 @@ setup(
     extras_require={
         "dev": ["pytest>=7"],
         "tiled": ["tiled[client]"],
-        "production": ["tiled[client]"],
+        "production": [
+            "tiled[client]",
+            "torch==2.6.0",
+            "gpytorch==1.15.2",
+            "botorch==0.17.1",
+        ],
     },
     classifiers=[
         "Development Status :: 3 - Alpha",

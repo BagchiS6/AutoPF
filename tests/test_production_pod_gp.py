@@ -85,25 +85,63 @@ class PODGPTests(unittest.TestCase):
         fields = np.asarray([
             [[value, value**2], [-value, 0.5 * value]] for value in x[:, 0]
         ])
-        model = PODGaussianProcess(max_modes=4).fit(x, fields)
+        model = PODGaussianProcess(
+            max_modes=4,
+            max_inducing=8,
+            training_steps=60,
+            online_steps=6,
+            learning_rate=0.04,
+            device="cpu",
+            dtype="float64",
+        ).fit(x, fields)
         mean, variance = model.predict(x)
         self.assertEqual(mean.shape, fields.shape)
         self.assertLess(float(np.mean((mean - fields) ** 2)), 0.02)
         self.assertTrue(np.all(variance >= 0))
         with tempfile.TemporaryDirectory() as directory:
-            path = Path(directory) / "model.npz"
+            path = Path(directory) / "model.pt"
             model.save(path)
             loaded = PODGaussianProcess.load(path)
             loaded_mean, loaded_variance = loaded.predict(x)
             np.testing.assert_allclose(loaded_mean, mean)
             np.testing.assert_allclose(loaded_variance, variance)
             frozen_basis = loaded._state["basis"].copy()
-            frozen_length = float(loaded._state["length_scale"])
+            frozen_hyperparameters = {
+                name: value.detach().clone()
+                for name, value in loaded._model.named_parameters()
+                if "variational_distribution" not in name
+            }
             loaded.update(np.asarray([[1.25]]), np.asarray([[[1.25, 1.25**2], [-1.25, 0.625]]]))
             self.assertEqual(loaded.training_count, 9)
             np.testing.assert_array_equal(loaded._state["basis"], frozen_basis)
-            self.assertEqual(float(loaded._state["length_scale"]), frozen_length)
+            for name, before in frozen_hyperparameters.items():
+                np.testing.assert_array_equal(
+                    loaded._model.get_parameter(name).detach().cpu(), before.cpu()
+                )
             self.assertTrue(loaded.receipt()["pod_basis_frozen_after_initial_fit"])
+            self.assertTrue(loaded.receipt()["joint_candidate_covariance_preserved"])
+
+    def test_botorch_samples_one_joint_candidate_posterior(self):
+        x = np.linspace(-1.0, 1.0, 12)[:, None]
+        fields = np.sin(2.0 * x[:, 0])[:, None, None]
+        model = PODGaussianProcess(
+            max_modes=1,
+            max_inducing=10,
+            training_steps=60,
+            online_steps=4,
+            learning_rate=0.04,
+            device="cpu",
+            dtype="float64",
+        ).fit(x, fields)
+        query = np.asarray([[-0.2], [-0.1999], [2.5]])
+        draws = model.thompson_fields(query, seed=91, num_samples=256)
+        repeated = model.thompson_fields(query, seed=91, num_samples=256)
+        np.testing.assert_allclose(draws, repeated)
+        self.assertEqual(draws.shape, (256, 3, 1, 1))
+        nearby = np.corrcoef(draws[:, 0, 0, 0], draws[:, 1, 0, 0])[0, 1]
+        distant = np.corrcoef(draws[:, 0, 0, 0], draws[:, 2, 0, 0])[0, 1]
+        self.assertGreater(nearby, 0.95)
+        self.assertGreater(nearby, distant + 0.2)
 
     def test_unfitted_and_one_sample_models_fail_loudly(self):
         model = PODGaussianProcess()
@@ -128,7 +166,7 @@ class AsyncControllerTests(unittest.TestCase):
             strategy = ProductionPODGPStrategy(
                 candidate_library=candidates,
                 acquisition_plan=[{"voltage_v": 5.0, "pulse_s": 0.3}],
-                model_path=root / "model.npz",
+                model_path=root / "model.pt",
                 objective=ObjectiveEvaluator(ObjectiveMode.PIXEL_NMSE),
                 condition_features=["voltage_v", "pulse_s"],
                 batch_size=1,
@@ -136,6 +174,12 @@ class AsyncControllerTests(unittest.TestCase):
                 async_evaluations_per_observation=4,
                 online_release_minimum=2,
                 async_context_root=root / "contexts",
+                max_inducing=2,
+                gp_training_steps=12,
+                gp_online_steps=3,
+                gp_learning_rate=0.04,
+                gp_device="cpu",
+                gp_dtype="float64",
             )
             observation = Observation(
                 observation_id="obs-0",
@@ -188,7 +232,9 @@ class AsyncControllerTests(unittest.TestCase):
             self.assertEqual(state["completed"], 4)
             self.assertFalse(state["pending"])
             self.assertEqual(len(state["launched_pairs"]), len(set(state["launched_pairs"])))
-            self.assertEqual(PODGaussianProcess.load(root / "model.npz").training_count, 4)
+            fitted = PODGaussianProcess.load(root / "model.pt")
+            self.assertEqual(fitted.training_count, 4)
+            self.assertIn("BoTorch", fitted.receipt()["posterior_sampler"])
 
             first = state["completed_results"][0]
             with self.assertRaisesRegex(ValueError, "duplicate"):

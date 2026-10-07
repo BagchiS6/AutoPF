@@ -43,7 +43,7 @@
     "objective_artifact": "$NERSC_DEPLOY_ROOT/calibration/noise_features.npz",
     "candidate_library": "$NERSC_DEPLOY_ROOT/config/physics_candidates.json",
     "acquisition_plan": "$NERSC_DEPLOY_ROOT/config/acquisition_plan.json",
-    "model_path": "$NERSC_DEPLOY_ROOT/models/online_pod_gp.npz",
+    "model_path": "$NERSC_DEPLOY_ROOT/models/online_pod_gp.pt",
     "condition_features": ["voltage_v", "pulse_s"],
     "field_key": "surface_uz",
     "observation_parameter_map": {
@@ -55,6 +55,12 @@
     "online_release_minimum": 8,
     "async_context_root": "$NERSC_DEPLOY_ROOT/state/async_contexts",
     "max_modes": 32,
+    "max_inducing": 128,
+    "gp_training_steps": 200,
+    "gp_online_steps": 25,
+    "gp_learning_rate": 0.03,
+    "gp_device": "auto",
+    "gp_dtype": "float32",
     "random_seed": 20261007,
     "stop_posterior_mass": 0.95
   }

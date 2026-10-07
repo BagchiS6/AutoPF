@@ -90,9 +90,10 @@ point. `MatEnsembleAsyncTSBackend` launches an initial space-filling MOOSE wave.
 For every completed field, a MatEnsemble strategy chore calls AutoPF's
 file-backed controller, which:
 
-1. acquires a lock and loads the latest POD--GP artifact;
-2. conditions the GP on the returned full field;
-3. draws and scores the next Thompson candidate using the frozen objective;
+1. acquires a lock and loads the latest GPyTorch variational POD--GP artifact;
+2. warm-starts the variational posterior on the returned full field;
+3. uses BoTorch to draw and score a joint reparameterized posterior sample over
+   all available candidates with the frozen objective;
 4. checkpoints state and emits one replacement MOOSE chore;
 5. releases the lock while other solves continue.
 

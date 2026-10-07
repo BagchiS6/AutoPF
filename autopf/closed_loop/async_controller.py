@@ -159,7 +159,7 @@ def _propose(context: dict[str, Any], state: dict[str, Any]) -> SimulationReques
             "candidate_id": candidate["candidate_id"],
             "pair_key": _pair(candidate, context),
             "model_input": _candidate_input(candidate, context),
-            "acquisition": "asynchronous posterior-aware Thompson sample from updated POD--GP",
+            "acquisition": "asynchronous BoTorch joint-posterior Thompson sample from updated GPyTorch POD--GP",
             "sampled_objective": float(scores[index]),
             "objective_mode": context["objective_mode"],
             "async_context_path": context["context_path"],
@@ -222,7 +222,16 @@ def incorporate_and_propose(
                         result_field(SimulationResult.from_dict(row), context["field_key"])
                         for row in usable
                     ], dtype=float)
-                    PODGaussianProcess(max_modes=int(context["max_modes"])).fit(
+                    PODGaussianProcess(
+                        max_modes=int(context["max_modes"]),
+                        max_inducing=int(context["max_inducing"]),
+                        training_steps=int(context["gp_training_steps"]),
+                        online_steps=int(context["gp_online_steps"]),
+                        learning_rate=float(context["gp_learning_rate"]),
+                        device=str(context["gp_device"]),
+                        dtype=str(context["gp_dtype"]),
+                        random_seed=int(context["random_seed"]),
+                    ).fit(
                         release_inputs, release_fields
                     ).save(model_path)
                     state["trained_simulation_ids"].extend(row["simulation_id"] for row in usable)

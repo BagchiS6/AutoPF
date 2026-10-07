@@ -87,7 +87,7 @@ def main() -> None:
     strategy = ProductionPODGPStrategy(
         candidate_library=library,
         acquisition_plan=[condition],
-        model_path=OUTPUT / "model/online_pod_gp.npz",
+        model_path=OUTPUT / "model/online_pod_gp.pt",
         objective=ObjectiveEvaluator(ObjectiveMode.PIXEL_NMSE),
         condition_features=list(condition),
         batch_size=1,
@@ -97,6 +97,10 @@ def main() -> None:
         async_context_root=OUTPUT / "contexts",
         observation_parameter_map={"data_references.pfm_initial_condition": "pfm_image_file"},
         max_modes=8,
+        max_inducing=4,
+        gp_training_steps=40,
+        gp_online_steps=6,
+        gp_device="cpu",
     )
     observation = Observation(
         observation_id="stored-release-gate-observation",
@@ -147,7 +151,7 @@ def main() -> None:
         "passed": True,
         "real_moose_simulations": len(results),
         "per_completion_online_updates": len(results),
-        "model_path": str(OUTPUT / "model/online_pod_gp.npz"),
+        "model_path": str(OUTPUT / "model/online_pod_gp.pt"),
         "batch_receipt": str(Path(handle.metadata["batch_directory"]) / "batch_results.json"),
         "proxy_simulation": False,
     }

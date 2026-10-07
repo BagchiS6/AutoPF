@@ -136,6 +136,12 @@ class ProductionPODGPStrategy:
         bootstrap_size: int = 16,
         random_seed: int = 20261007,
         max_modes: int = 32,
+        max_inducing: int = 128,
+        gp_training_steps: int = 200,
+        gp_online_steps: int = 25,
+        gp_learning_rate: float = 0.03,
+        gp_device: str = "auto",
+        gp_dtype: str = "float32",
         stop_posterior_mass: float = 0.95,
         async_evaluations_per_observation: int | None = None,
         online_release_minimum: int = 8,
@@ -154,6 +160,12 @@ class ProductionPODGPStrategy:
         self.bootstrap_size = max(int(bootstrap_size), 2)
         self.random_seed = int(random_seed)
         self.max_modes = int(max_modes)
+        self.max_inducing = int(max_inducing)
+        self.gp_training_steps = int(gp_training_steps)
+        self.gp_online_steps = int(gp_online_steps)
+        self.gp_learning_rate = float(gp_learning_rate)
+        self.gp_device = str(gp_device)
+        self.gp_dtype = str(gp_dtype)
         self.stop_posterior_mass = float(stop_posterior_mass)
         self.async_evaluations_per_observation = (
             None if async_evaluations_per_observation is None
@@ -237,12 +249,30 @@ class ProductionPODGPStrategy:
         inputs = np.asarray([self._input(row, condition) for row in available], dtype=float)
         if self.model_path.exists():
             model = PODGaussianProcess.load(self.model_path)
-            sampled = model.thompson_fields(inputs, seed=self.random_seed + observation.iteration)
+            draw_count = min(self.batch_size, len(available))
+            sampled = model.thompson_fields(
+                inputs,
+                seed=self.random_seed + observation.iteration,
+                num_samples=draw_count,
+            )
+            if draw_count == 1:
+                sampled = sampled[None, ...]
             _mean, variance = model.predict(inputs)
             observed = np.asarray(observation.data[self.field_key], dtype=float)
-            scores = self.objective.score(observed, sampled, variance).scores
-            order = np.argsort(scores)[: self.batch_size]
-            acquisition = "posterior-aware Thompson sample from POD--GP"
+            chosen: list[int] = []
+            chosen_scores: dict[int, float] = {}
+            for draw in sampled:
+                draw_scores = self.objective.score(observed, draw, variance).scores
+                for index in np.argsort(draw_scores):
+                    if int(index) not in chosen:
+                        chosen.append(int(index))
+                        chosen_scores[int(index)] = float(draw_scores[int(index)])
+                        break
+            order = np.asarray(chosen, dtype=int)
+            scores = np.full(len(available), np.nan)
+            for index, value in chosen_scores.items():
+                scores[index] = value
+            acquisition = "BoTorch joint-posterior Thompson sample from GPyTorch variational POD--GP"
         else:
             order = self._diverse_indices(inputs, min(self.bootstrap_size, len(inputs)), self.random_seed)
             order = np.asarray(order, dtype=int)
@@ -295,6 +325,12 @@ class ProductionPODGPStrategy:
                 "candidate_library": self.library.rows,
                 "model_path": str(self.model_path),
                 "max_modes": self.max_modes,
+                "max_inducing": self.max_inducing,
+                "gp_training_steps": self.gp_training_steps,
+                "gp_online_steps": self.gp_online_steps,
+                "gp_learning_rate": self.gp_learning_rate,
+                "gp_device": self.gp_device,
+                "gp_dtype": self.gp_dtype,
                 "random_seed": self.random_seed + observation.iteration * 1009,
                 "maximum_evaluations": self.async_evaluations_per_observation,
                 "online_release_minimum": min(self.online_release_minimum, len(requests)),
@@ -343,7 +379,16 @@ class ProductionPODGPStrategy:
         elif self.model_path.exists():
             model = PODGaussianProcess.load(self.model_path).update(inputs, fields)
         else:
-            model = PODGaussianProcess(max_modes=self.max_modes).fit(inputs, fields)
+            model = PODGaussianProcess(
+                max_modes=self.max_modes,
+                max_inducing=self.max_inducing,
+                training_steps=self.gp_training_steps,
+                online_steps=self.gp_online_steps,
+                learning_rate=self.gp_learning_rate,
+                device=self.gp_device,
+                dtype=self.gp_dtype,
+                random_seed=self.random_seed,
+            ).fit(inputs, fields)
         model.save(self.model_path)
 
         observed = np.asarray(observation.data[self.field_key], dtype=float)

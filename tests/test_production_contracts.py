@@ -92,12 +92,16 @@ class ProductionWiringTests(unittest.TestCase):
                 "objective_mode": "pixel_nmse",
                 "candidate_library": str(candidates),
                 "acquisition_plan": str(plan),
-                "model_path": str(scratch / "pod_gp.npz"),
+                "model_path": str(scratch / "pod_gp.pt"),
                 "condition_features": ["voltage_v", "pulse_s"],
                 "batch_size": 2,
                 "bootstrap_size": 2,
                 "online_release_minimum": 2,
                 "async_evaluations_per_observation": 4,
+                "max_inducing": 8,
+                "gp_training_steps": 10,
+                "gp_online_steps": 2,
+                "gp_device": "cpu",
             },
         }
 
@@ -228,6 +232,8 @@ class NERSCProfileTests(unittest.TestCase):
             "bto_moose_hooks:build_moose_command",
         )
         self.assertEqual(config["strategy"]["objective_mode"], "posterior_distance")
+        self.assertEqual(config["strategy"]["gp_device"], "auto")
+        self.assertTrue(config["strategy"]["model_path"].endswith(".pt"))
 
 
 if __name__ == "__main__":
