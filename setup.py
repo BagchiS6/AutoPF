@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="autopf",
-    version="0.1.0",
+    version="0.2.0",
     description="High-throughput Phase Field simulations automation using MOOSE and MatEnsemble",
     author="Soumendu Bagchi",
     author_email="bagchis@ornl.gov",
@@ -12,6 +12,10 @@ setup(
     install_requires=[
         # matensemble should be installed separately
     ],
+    extras_require={
+        "dev": ["pytest>=7"],
+        "tiled": ["tiled[client]"],
+    },
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Science/Research",

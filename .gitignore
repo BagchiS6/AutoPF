@@ -1,1 +1,6 @@
 /autopf.egg-info
+__pycache__/
+*.py[cod]
+/build/
+/dist/
+/examples/closed-loop-aecroscopywave/output/
