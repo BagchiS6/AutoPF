@@ -18,6 +18,9 @@ from .schema import (
     StrategyUpdate,
 )
 from .state import JsonStateStore
+from .objectives import ObjectiveEvaluator, ObjectiveMode, ObjectiveResult
+from .pod_gp import PODGaussianProcess
+from .production import CandidateLibrary, ProductionPODGPStrategy, resolve_objective_mode
 
 __all__ = [
     "AcquisitionBackend",
@@ -32,4 +35,11 @@ __all__ = [
     "SimulationRequest",
     "SimulationResult",
     "StrategyUpdate",
+    "CandidateLibrary",
+    "ObjectiveEvaluator",
+    "ObjectiveMode",
+    "ObjectiveResult",
+    "PODGaussianProcess",
+    "ProductionPODGPStrategy",
+    "resolve_objective_mode",
 ]

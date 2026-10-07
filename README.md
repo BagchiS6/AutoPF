@@ -109,7 +109,7 @@ MatEnsemble restart state.
 ## Featured Example: Low-Rank PFM Inversion
 
 `examples/low-rank-PFM-inversion/` shows AutoPF in a full inverse-modeling loop:
-MOOSE/Ferret campaigns generate surface displacement fields, POD/SVD compresses
+MOOSE application campaigns generate surface displacement fields, POD/SVD compresses
 the field ensemble, a condition-aware GP surrogate predicts `u_z(x, y)` across
 voltage and pulse-width conditions, and active-learning proposals feed new
 simulations back into AutoPF. The same campaign then uses residual-guided

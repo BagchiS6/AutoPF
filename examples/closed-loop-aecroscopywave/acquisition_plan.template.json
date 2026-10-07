@@ -1,0 +1,21 @@
+{
+  "schema": "autopf.aecroscopywave_acquisition_plan.v1",
+  "acquisitions": [
+    {
+      "job_type": "pulse_then_pfm_image",
+      "voltage_v": 5.0,
+      "pulse_s": 0.3,
+      "scan_size_nm": 350.0,
+      "scan_rate_hz": 1.0,
+      "num_lines": 64
+    },
+    {
+      "job_type": "pulse_then_pfm_image",
+      "voltage_v": -5.0,
+      "pulse_s": 0.3,
+      "scan_size_nm": 350.0,
+      "scan_rate_hz": 1.0,
+      "num_lines": 64
+    }
+  ]
+}

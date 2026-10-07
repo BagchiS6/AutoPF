@@ -1,0 +1,61 @@
+{
+  "campaign": {
+    "campaign_id": "bto-live-nersc-001",
+    "state_path": "$NERSC_DEPLOY_ROOT/state/campaign.json"
+  },
+  "acquisition": {
+    "server_url_env": "AFW_CLOUD_SERVER_URL",
+    "instrument_id_env": "AFW_INSTRUMENT_ID",
+    "secret_env": "AFW_AGENT_SECRET",
+    "tiled_api_key_env": "AFW_TILED_API_KEY",
+    "tiled_array_key": "pfm_amplitude",
+    "pfm_transform": "site_hooks:calibrated_pfm_to_uz",
+    "poll_interval_seconds": 5.0,
+    "timeout_seconds": 7200.0
+  },
+  "simulation": {
+    "backend": "async_ts",
+    "scratch_root": "$SCRATCH",
+    "output_root": "$NERSC_DEPLOY_ROOT/moose",
+    "moose_app": "$MOOSE_APP",
+    "base_input": "$NERSC_DEPLOY_ROOT/inputs/BTO_DW_anisotropic_hidden_physics_zdecay_ic.i",
+    "num_cores": 64,
+    "buffer_time": 0.0,
+    "log_delay": 5.0,
+    "command_builder": "bto_moose_hooks:build_moose_command",
+    "command_config": {
+      "task_wrapper": "$AUTOPF_REPO/examples/closed-loop-aecroscopywave/run_bto_moose.sh"
+    },
+    "task_environment": {
+      "AUTOPF_PYTHON": "$AUTOPF_ENV/bin/python",
+      "AUTOPF_BTO_FINALIZER": "$AUTOPF_REPO/examples/closed-loop-aecroscopywave/finalize_bto_pathfinder_moose.py",
+      "OMP_NUM_THREADS": "1",
+      "MPICH_GPU_SUPPORT_ENABLED": "0"
+    },
+    "condition_override_map": {
+      "voltage_v": "tip_voltage",
+      "pulse_s": "pulse_end"
+    }
+  },
+  "strategy": {
+    "objective_mode": "posterior_distance",
+    "agent_objective_receipt": null,
+    "objective_artifact": "$NERSC_DEPLOY_ROOT/calibration/noise_features.npz",
+    "candidate_library": "$NERSC_DEPLOY_ROOT/config/physics_candidates.json",
+    "acquisition_plan": "$NERSC_DEPLOY_ROOT/config/acquisition_plan.json",
+    "model_path": "$NERSC_DEPLOY_ROOT/models/online_pod_gp.npz",
+    "condition_features": ["voltage_v", "pulse_s"],
+    "field_key": "surface_uz",
+    "observation_parameter_map": {
+      "data_references.pfm_initial_condition": "pfm_image_file"
+    },
+    "bootstrap_size": 16,
+    "batch_size": 8,
+    "async_evaluations_per_observation": 64,
+    "online_release_minimum": 8,
+    "async_context_root": "$NERSC_DEPLOY_ROOT/state/async_contexts",
+    "max_modes": 32,
+    "random_seed": 20261007,
+    "stop_posterior_mass": 0.95
+  }
+}

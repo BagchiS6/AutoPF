@@ -1,0 +1,46 @@
+{
+  "schema": "autopf.physics_candidates.v1",
+  "feature_names": ["screening", "vegard_yz", "vegard_xz", "flexoelectric"],
+  "candidates": [
+    {
+      "candidate_id": "hidden_off",
+      "features": [0.0, 0.0, 0.0, 0.0],
+      "parameters": {
+        "spatial_screen_amp": 0.0,
+        "anis_vegard_yz_amp": 0.0,
+        "anis_vegard_xz_amp": 0.0,
+        "flexo_proxy_grad_amp": 0.0
+      }
+    },
+    {
+      "candidate_id": "screening_0p08",
+      "features": [0.08, 0.0, 0.0, 0.0],
+      "parameters": {
+        "spatial_screen_amp": 0.08,
+        "anis_vegard_yz_amp": 0.0,
+        "anis_vegard_xz_amp": 0.0,
+        "flexo_proxy_grad_amp": 0.0
+      }
+    },
+    {
+      "candidate_id": "vegard_yz_pos",
+      "features": [0.0, 0.00075, 0.0, 0.0],
+      "parameters": {
+        "spatial_screen_amp": 0.0,
+        "anis_vegard_yz_amp": 0.00075,
+        "anis_vegard_xz_amp": 0.0,
+        "flexo_proxy_grad_amp": 0.0
+      }
+    },
+    {
+      "candidate_id": "screening_vegard_yz_pos",
+      "features": [0.08, 0.00075, 0.0, 0.0],
+      "parameters": {
+        "spatial_screen_amp": 0.08,
+        "anis_vegard_yz_amp": 0.00075,
+        "anis_vegard_xz_amp": 0.0,
+        "flexo_proxy_grad_amp": 0.0
+      }
+    }
+  ]
+}

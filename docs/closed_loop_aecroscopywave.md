@@ -83,6 +83,30 @@ Only JSON-safe strategy state should be checkpointed. Large model tensors and
 POD bases should be saved as versioned files, with their paths and hashes stored
 in `strategy_state`.
 
+## Production asynchronous Thompson path
+
+`examples/closed-loop-aecroscopywave/run_production.py` is the non-proxy entry
+point. `MatEnsembleAsyncTSBackend` launches an initial space-filling MOOSE wave.
+For every completed field, a MatEnsemble strategy chore calls AutoPF's
+file-backed controller, which:
+
+1. acquires a lock and loads the latest POD--GP artifact;
+2. conditions the GP on the returned full field;
+3. draws and scores the next Thompson candidate using the frozen objective;
+4. checkpoints state and emits one replacement MOOSE chore;
+5. releases the lock while other solves continue.
+
+This is asynchronous Thompson sampling, not merely asynchronous execution of a
+fixed design. The task wrapper must return the simulation ID and extracted
+field reference so the controller can make the update idempotent.
+
+Two objective policies are registered. `pixel_nmse` minimizes aligned,
+variance-normalized residuals. `posterior_distance` minimizes a Gaussian
+negative log predictive density in a calibration-only feature basis, combining
+the noise-aware Mahalanobis term and the covariance log determinant. The mode
+is stored in campaign metadata and cannot change on restart. An agent hook is a
+data-only JSON choice between these reviewed policies.
+
 ## Simulation contract
 
 `MatEnsembleMOOSEBackend` maps a batch of `SimulationRequest` objects to a fixed

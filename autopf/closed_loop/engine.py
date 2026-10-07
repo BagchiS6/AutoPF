@@ -152,7 +152,9 @@ class ClosedLoopRunner:
             results = tuple(self.simulation.collect(handle))
             requested = {row["simulation_id"] for row in record["simulation_requests"]}
             returned = {result.simulation_id for result in results}
-            if requested != returned:
+            adaptive = bool(handle.metadata.get("adaptive_requests", False))
+            valid = requested.issubset(returned) if adaptive else requested == returned
+            if not valid:
                 raise ValueError(f"Simulation batch mismatch: requested={requested}, returned={returned}")
             record["simulation_results"] = [result.to_dict() for result in results]
             self._checkpoint(state, record, "simulated")
