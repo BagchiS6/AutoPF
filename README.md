@@ -109,7 +109,7 @@ MatEnsemble restart state.
 ## Featured Example: Low-Rank PFM Inversion
 
 `examples/low-rank-PFM-inversion/` shows AutoPF in a full inverse-modeling loop:
-MOOSE/Ferret campaigns generate surface displacement fields, POD/SVD compresses
+MOOSE application campaigns generate surface displacement fields, POD/SVD compresses
 the field ensemble, a condition-aware GP surrogate predicts `u_z(x, y)` across
 voltage and pulse-width conditions, and active-learning proposals feed new
 simulations back into AutoPF. The same campaign then uses residual-guided
@@ -125,6 +125,34 @@ gradient coefficients.
 The example also includes a residual-guided hidden-physics study comparing
 screening, flexo-proxy, and anisotropic eigenstrain hypotheses against PFM
 holdout conditions.
+
+## Closed-Loop Microscopy and Theory
+
+AutoPF includes a restartable experiment--simulation state machine for
+connecting the low-rank/UQ workflow to autonomous microscopy. Acquisition,
+theory, and HPC execution remain replaceable:
+
+- proxy acquisition supports replay data and hardware-free testing;
+- the AEcroscopyWave REST backend enqueues instrument jobs and records Tiled
+  array references;
+- proxy simulation validates the control loop;
+- the MatEnsemble/MOOSE backend launches full-physics candidate batches;
+- callback strategies connect online POD--GP updates and posterior-aware
+  Thompson sampling without embedding instrument code in the model.
+
+Try the complete proxy loop:
+
+```bash
+pip install -e .
+cd examples/closed-loop-aecroscopywave
+python run_proxy.py --iterations 4
+python run_proxy.py --iterations 8  # resumes the same campaign
+```
+
+See [`examples/closed-loop-aecroscopywave/`](examples/closed-loop-aecroscopywave/)
+for proxy and live entry points, and
+[`docs/closed_loop_aecroscopywave.md`](docs/closed_loop_aecroscopywave.md) for
+the API boundary, restart semantics, Tiled data contract, and deployment notes.
 
 ## API Reference
 
@@ -156,10 +184,14 @@ Find the highest-numbered `restart_*.dat` file in a directory.
 examples/
   allen-cahn/                 Minimal high-throughput MOOSE campaign
   low-rank-PFM-inversion/     Low-rank PFM inverse-problem workflow
+  closed-loop-aecroscopywave/ Restartable proxy/live experiment loop
 images/
   SI_fig_autopf_matensemble_scalable_orchestration.png
 autopf/
   utils.py                    AutoPF launch and job-stat utilities
+  online_strategy.py          Online candidate selection and resource budgets
+  posterior.py                Finite-ensemble posterior summaries
+  closed_loop/                Experiment--simulation state machine and adapters
 ```
 
 The low-rank PFM inversion example documents a larger scientific workflow where simulated
